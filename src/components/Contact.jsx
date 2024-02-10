@@ -30,7 +30,14 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+  
+    // Validation check for the email field
+    if (!form.email.trim()) {
+      setLoading(false);
+      alert("Email field cannot be empty!");
+      return;
+    }
+  
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -47,8 +54,8 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
-
+          alert("Thank you. One of our representatives will reach back to you shortly.");
+  
           setForm({
             name: "",
             email: "",
@@ -58,11 +65,12 @@ const Contact = () => {
         (error) => {
           setLoading(false);
           console.error(error);
-
+  
           alert("Ahh, something went wrong. Please try again.");
         }
       );
   };
+  
 
   return (
     <div

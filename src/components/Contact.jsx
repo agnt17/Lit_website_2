@@ -38,6 +38,9 @@ const Contact = () => {
       return;
     }
   
+    // Include sender's email in the message body
+    const messageWithSenderEmail = `${form.message}\n\nSender's Email: ${form.email}`;
+  
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -47,7 +50,7 @@ const Contact = () => {
           to_name: "Aditya",
           from_email: form.email,
           to_email: "adityagupta20042003@gmail.com",
-          message: form.message,
+          message: messageWithSenderEmail, // Use the modified message
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
@@ -70,6 +73,7 @@ const Contact = () => {
         }
       );
   };
+  
   
 
   return (

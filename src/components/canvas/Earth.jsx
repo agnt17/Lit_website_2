@@ -44,6 +44,7 @@ const EarthCanvas = () => {
         <Earth/>
       </Suspense>
     </Canvas>
+    
   )
 }
 

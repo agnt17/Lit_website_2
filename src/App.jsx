@@ -27,7 +27,6 @@ const App = () => {
         {/* this is events file*/}
         <Experience />
         {/* this is teams file*/}
-        {/* <Tech/>  this could be used as merchandise*/}
         {/* <Works/> */}
         <div className="relative z-0">
           <Contact />

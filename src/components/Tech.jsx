@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
-const Tech = () => {
+export default function Tech() {
   return (
-    <div>Tech</div>
-  )
+    <>
+      <div className="grid lg:grid-cols-3 sm:grid-rows-2">cajshff</div>
+    </>
+  );
 }
-
-export default Tech

@@ -21,7 +21,11 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-9 h-9 object-contain" />
+          <img
+            src="./public/lit_logo_svg_icon.svg"
+            alt="logo"
+            className="w-9 h-9 object-contain bg-[#915eff] rounded-2xl"
+          />
           <p className="text-white text-[18px] font-poppins font-bold cursor-pointer flex">
             Literary &nbsp; <span className="sm:block hidden"> SubCouncil</span>
           </p>

@@ -22,7 +22,7 @@ const Navbar = () => {
           }}
         >
           <img
-            src="./public/lit_logo_svg_icon.svg"
+            src="./lit_logo_svg_icon.svg"
             alt="logo"
             className="w-9 h-9 object-contain bg-[#915eff] rounded-2xl"
           />

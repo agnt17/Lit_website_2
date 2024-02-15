@@ -26,7 +26,7 @@ const Hero = () => {
         <img
           src="./public/lit_logo.jpg"
           className="w-24 h-24 rounded-full border-2 border-x-purple-600 hover:border-y-purple-600 cursor-pointer"
-          alt="Lit Logo"
+          alt="Lit logo"
         />
       </div>
 

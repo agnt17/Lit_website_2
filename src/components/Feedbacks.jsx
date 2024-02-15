@@ -31,7 +31,7 @@ const ExperienceCard = ({ experience }) => (
   >
     {/* From here onwards the content can be changed and it is stored all in the index file of constants folder. */}
     <div>
-      <h3 className="text-white text-[24px] font-bold">{experience.title}</h3>
+      <h3 className="text-white text-[24px] font-bold ">{experience.title}</h3>
       <p
         className="text-secondary text-[16px] font-semibold"
         style={{ margin: 0 }}
@@ -70,7 +70,7 @@ const Feedbacks = () => {
       >
         This section is dedicated to what events will happen this year and at which dates.
       </motion.p>
-      <div className="mt-20 flex flex-col">
+      <div className="mt-20 flex flex-col ">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard key={index} experience={experience} />

@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+// import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
-import { RxArrowTopRight } from "react-icons/rx";
-import { Link } from "react-router-dom";
+// import { RxArrowTopRight } from "react-icons/rx";
+// import { Link } from "react-router-dom";
 
 const Experience = () => {
   const [selectedCard, setSelectedCard] = useState(null);
@@ -28,7 +28,6 @@ const Experience = () => {
       setIsScaling(true); // Set scaling flag to trigger animation
     }
   };
-  
 
   return (
     <>
@@ -42,9 +41,9 @@ const Experience = () => {
         {services.map((service, index) => (
           <div
             key={service.title}
-            className={`flex flex-col gap-6 group relative shadow-lg text-white rounded-xl p-4 w-full lg:w-[215px] lg:h-[400px] overflow-hidden cursor-pointer bg-transparent  ${
+            className={`flex flex-col gap-6 group relative shadow-lg text-white rounded-xl p-4 w-full lg:w-[215px] lg:h-[400px] overflow-hidden cursor-pointer bg-white bg-opacity-5 backdrop-blur-sm  border-2 border-pink-300 hover:border-pink-400  ${
               selectedCard === index ? "" : ""
-            } hover:scale-150 transition ease-in-out duration-1000 ${
+            } hover:scale-110 transition ease-in-out duration-1000 ${
               isScaling ? "scale-100" : ""
             }`}
             onMouseOver={() => handleCardHover(index)}

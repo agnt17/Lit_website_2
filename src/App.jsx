@@ -1,4 +1,4 @@
-import { BrowserRouter } from "react-router-dom"
+import { BrowserRouter } from "react-router-dom";
 import {
   About,
   Contact,
@@ -9,8 +9,8 @@ import {
   StarsCanvas,
   Tech,
   Works,
-} from "./components"
-import Footer from "./components/Footer"
+} from "./components";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -27,7 +27,8 @@ const App = () => {
         {/* this is events file*/}
         <Experience />
         {/* this is teams file*/}
-        {/* <Works/> */}
+        <Works />
+        {/* This is merchandise file... */}
         <div className="relative z-0">
           <Contact />
           <StarsCanvas />
@@ -35,7 +36,7 @@ const App = () => {
         <Footer />
       </div>
     </BrowserRouter>
-  )
-}
+  );
+};
 
-export default App
+export default App;

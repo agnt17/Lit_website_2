@@ -91,7 +91,7 @@ const services = [
   },
   {
     id: 2,
-    title: "Web Development",
+    title: "Web Dev",
     icon: mobile,
     data: () => (
       <ul className="flex flex-col">

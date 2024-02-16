@@ -38,7 +38,7 @@ const Hero = () => {
 
       <div className="fixed bottom-0 right-0 mb-4 mr-4 z-20 hidden sm:block">
         <img
-          src="./lit_logo.jpg"
+          src="./src/assets/lit_logo.jpg"
           className="w-24 h-24 rounded-full border-2 border-x-purple-600 hover:border-y-purple-600 cursor-pointer"
           alt="Lit logo"
         />

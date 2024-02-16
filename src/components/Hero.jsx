@@ -25,21 +25,13 @@ const Hero = () => {
       <div className="flex justify-center items-center h-screen">
         {/* Image for large screens */}
         <img
-<<<<<<< HEAD
           src="./herobg2.png"
-=======
-          src="../assets/herobg2.png"
->>>>>>> fa35d5fff82dd7f2dd74fe5b2910db5a44da69b4
           className="hidden sm:block mt-72 scale-50 max-w-1/4 rounded-xl opacity-80"
         />
 
         {/* Logo for small screens */}
         <img
-<<<<<<< HEAD
           src="./lit_logo.jpg"
-=======
-          src="../assets/lit_logo.jpg"
->>>>>>> fa35d5fff82dd7f2dd74fe5b2910db5a44da69b4
           className="sm:hidden w-3/4 h-auto rounded-full mt-72 hover:border border-4 border-opacity-0 border-blue-500"
         />
       </div>

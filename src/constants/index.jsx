@@ -533,5 +533,27 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
+const dummyImages = [
+  {
+    id: 1,
+    image: "https://randomuser.me/api/portraits/men/1.jpg",
+  },
+  {
+    id: 2,
+    image: "https://randomuser.me/api/portraits/men/2.jpg",
+  },
+  {
+    id: 3,
+    image: "https://randomuser.me/api/portraits/men/3.jpg",
+  },
+  {
+    id: 4,
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
+  },
+  {
+    id: 5,
+    image: "https://randomuser.me/api/portraits/men/5.jpg",
+  },
+];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects, dummyImages };

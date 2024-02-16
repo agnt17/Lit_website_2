@@ -25,20 +25,20 @@ const Hero = () => {
       <div className="flex justify-center items-center h-screen">
         {/* Image for large screens */}
         <img
-          src="./src/assets/herobg2.png"
+          src="../assets/herobg2.png"
           className="hidden sm:block mt-72 scale-50 max-w-1/4 rounded-xl opacity-80"
         />
 
         {/* Logo for small screens */}
         <img
-          src="./src/assets/lit_logo.jpg"
+          src="../assets/lit_logo.jpg"
           className="sm:hidden w-3/4 h-auto rounded-full mt-72 hover:border border-4 border-opacity-0 border-blue-500"
         />
       </div>
 
       <div className="fixed bottom-0 right-0 mb-4 mr-4 z-20 hidden sm:block">
         <img
-          src="./src/assets/lit_logo.jpg"
+          src="../assets/lit_logo.jpg"
           className="w-24 h-24 rounded-full border-2 border-x-purple-600 hover:border-y-purple-600 cursor-pointer"
           alt="Lit logo"
         />

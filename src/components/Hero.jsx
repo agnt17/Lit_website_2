@@ -4,7 +4,7 @@ import { styles } from "../styles";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto overflow-hidden z-50 opacity-100">
+    <section className="relative w-full h-screen mx-auto overflow-hidden z-20 opacity-100">
       <div
         className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start  z-10`}
       >

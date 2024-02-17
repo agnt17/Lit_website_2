@@ -21,17 +21,18 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        <StarsCanvas />
+        {/* <StarsCanvas /> */}
         <About />
         <Feedbacks />
         {/* this is events file*/}
         <Experience />
         {/* this is teams file*/}
         <Works />
+        <Tech />
         {/* This is merchandise file... */}
         <div className="relative z-0">
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
         <Footer />
       </div>

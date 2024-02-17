@@ -14,7 +14,7 @@ import { styles } from "../styles";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
-    contentStyle={{ background: "#1d1836", color: "#fff" }}
+    contentStyle={{ background: "rgba(29, 24, 54, 0.4)", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
     date={experience.date}
     iconStyle={{ background: experience.iconBg }}
@@ -48,6 +48,15 @@ const ExperienceCard = ({ experience }) => (
         </li>
       ))}
     </ul>
+
+    {/* Render the image using the <img> tag */}
+    {experience.image && (
+      <img
+        src={experience.image}
+        alt="Experience Image"
+        className="w-full h-auto mt-5 opacity-80"
+      />
+    )}
   </VerticalTimelineElement>
 );
 
@@ -73,7 +82,7 @@ const About = () => {
   }, []);
 
   const settings = {
-    dots: false,
+    dots: true,
     arrows: false,
     infinite: true,
     speed: 1000, // Adjust the speed for slide transition
@@ -85,21 +94,22 @@ const About = () => {
 
   return (
     <>
-      <motion.div variants={textVariant()} className="mb-10">
-        <p className="text-center text-4xl font-bold sm:text-2xl">Overview</p>
-        <p className="mt-4 text-center text-xl sm:text-lg">
-          Who we are and what do we do!
-        </p>
-      </motion.div>
+      {/* <motion.div variants={textVariant()} className="mb-10"> */}
+      <p className={styles.sectionSubText}>Who we really are</p>
+      <h2 className={styles.sectionHeadText}>
+        <span className="select-none">Overview</span>
+      </h2>
+      {/* </motion.div> */}
 
-      <Slider {...settings} className="mt-10" ref={sliderRef}>
+      <Slider {...settings} className="mt-10 mb-40" ref={sliderRef}>
         {dummyImages.map((image, index) => (
           <CarouselCard key={index} image={image} />
         ))}
       </Slider>
-      <p className={styles.heroHeadText}>
-        <span className="mt-16">History</span>
-      </p>
+      <p className={styles.sectionSubText}>Events Witnessed till Now</p>
+      <h2 className={styles.sectionHeadText}>
+        <span className="select-none">History</span>
+      </h2>
 
       <VerticalTimeline className="mt-10">
         {experiences.map((experience, index) => (

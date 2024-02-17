@@ -44,6 +44,10 @@ export const navLinks = [
     title: "Merchandise",
   },
   {
+    id: "tech",
+    title: "Tech",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -52,7 +56,31 @@ export const navLinks = [
 const services = [
   {
     id: 1,
-    title: "Head",
+    title: "Conveyer",
+    icon: creator,
+    data: () => (
+      <ul>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          Dr. Shivani Koshtha{" "}
+          <a
+            href="https://www.linkedin.com/in/madhav-diwedi/"
+            target="_blank"
+            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+          >
+            <span style={{ marginRight: "4px" }}>
+              <FaLinkedin />
+            </span>
+            <span>
+              <FaInstagram />
+            </span>
+          </a>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    id: 2,
+    title: "Secretory",
     icon: web,
     data: () => (
       <ul>
@@ -90,7 +118,7 @@ const services = [
     ),
   },
   {
-    id: 2,
+    id: 3,
     title: "Web Dev",
     icon: mobile,
     data: () => (
@@ -174,7 +202,7 @@ const services = [
     ),
   },
   {
-    id: 3,
+    id: 4,
     title: "Hospitality",
     icon: backend,
     data: () => (
@@ -213,7 +241,7 @@ const services = [
     ),
   },
   {
-    id: 4,
+    id: 5,
     title: "Marketing",
     icon: web,
     data: () => (
@@ -252,7 +280,7 @@ const services = [
     ),
   },
   {
-    id: 5,
+    id: 6,
     title: "Security",
     icon: mobile,
     data: () => (
@@ -291,7 +319,7 @@ const services = [
     ),
   },
   {
-    id: 6,
+    id: 7,
     title: "Publicity",
     icon: backend,
     data: () => (
@@ -322,6 +350,45 @@ const services = [
               <FaLinkedin />
             </span>
             <span>
+              <FaInstagram />
+            </span>
+          </a>
+        </li>
+      </ul>
+    ),
+  },
+  {
+    id: 8,
+    title: "Management",
+    icon: web,
+    data: () => (
+      <ul>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          Anjali Bind{" "}
+          <a
+            href="https://www.linkedin.com/in/madhav-diwedi/"
+            target="_blank"
+            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+          >
+            <span style={{ marginRight: "4px" }}>
+              <FaLinkedin />
+            </span>
+            <span style={{ marginRight: "4px" }}>
+              <FaInstagram />
+            </span>
+          </a>
+        </li>
+        <li style={{ display: "flex", alignItems: "center" }}>
+          Suraj Tripathi{" "}
+          <a
+            href="https://www.linkedin.com/in/madhav-diwedi/"
+            target="_blank"
+            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+          >
+            <span style={{ marginRight: "4px" }}>
+              <FaLinkedin />
+            </span>
+            <span style={{ marginRight: "4px" }}>
               <FaInstagram />
             </span>
           </a>
@@ -386,174 +453,164 @@ const technologies = [
   },
 ];
 
+const feedbacks = [
+  {
+    title: "Kavya Sandhya",
+    company_name: "Literary Sub-Council",
+    icon: mobile,
+    iconBg: "#383E56",
+    date: "13th April 2023",
+    points: [
+      "Kavya Sandhya organized during the annual fest of the university is a poetry symposium,witnessing the presence of many great poets across the country.Shakeel Azmi, Mehshar Afridi,Dr. Kumar Vishwas, Rahat Indori etc have been a part of this poetry conclave.",
+    ],
+    image: "./kavya_sandhya.png",
+  },
+]
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Kavya Sandhya",
+    company_name: "Literary Sub-Council",
+    icon: mobile,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "13th April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Kavya Sandhya organized during the annual fest of the university is a poetry symposium,witnessing the presence of many great poets across the country.Shakeel Azmi, Mehshar Afridi,Dr. Kumar Vishwas, Rahat Indori etc have been a part of this poetry conclave.",
     ],
+    image: "./kavya_sandhya.png",
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "JASHN-E-NAUBAHAR ",
+    company_name: "Literary Sub-Council",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "11th February 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "It is an event celebrating both, heartfelt poetry and soul touching music.Shree Balmohan Pandey, a renowned poet, mesmerized everyone with his soulful poetry while the Surmohi brothers unified the atmosphere with sufi magic. The event provided a platform to the budding poets to share stage with some renowned names in the field of poetry.",
     ],
+    image: "./jashn_e_naubahar.jpg",
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
+    title: "HBTU-MUN",
+    company_name: "Literary Sub-Council",
     icon: shopify,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "5 Aug 2022 - 7 Aug 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Model United Nations (also Model UN or MUN) is an academic simulation of the United Nations with an aim to educate and make the participants understand the functioning and policy formation of governments of different countries, results of globalization, the role of communication in co-operation amongst nations, and multilateral diplomacy as a means to combat various issues",
     ],
+    image: "./HBTU_MUN.png",
   },
   {
-    title: "Full stack Developer",
+    title: "Youth Parliament",
+    company_name: "Literary Sub-Council",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "14th April 2023",
+    points: [
+      "Kavyotsav helped one to shed their inhibitions and fears by expressing their feelings and getting connected to the stories of others.  The students presented their own compositions, including poetry on various themes such as mother, college life, and nature, along with shayaris, nazms, and ghazals from celebrated shayars and poets, encompassing the navras, including veer ras, shringar ras, hasya ras, karun ras, and various other genres.",
+    ],
+    image: "./youth-parliament.jpg",
+  },
+  {
+    title: "Kavyotsav",
     company_name: "Meta",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "12th April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Youth parliament provides a common platform and fosters healthy discussions about policy reforms, parliamentary activities, policymaking, educational programs,etc.Participants are allotted the portfolio of each minister which then lead to a fierce yet fruitful debate between the government and the opposition",
     ],
+    image: "./kavyotsav.jpg",
+  },
+  {
+    title: "Moot Court",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "28th June 2023",
+    points: [
+      "Youth parliament provides a common platform and fosters healthy discussions about policy reforms, parliamentary activities, policymaking, educational programs,etc.Participants are allotted the portfolio of each minister which then lead to a fierce yet fruitful debate between the government and the opposition",
+    ],
+    image: "./moot_court.jpg",
+  },
+  {
+    title: "Debate-A-Thon",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "13th April 2023",
+    points: [
+      "It is a special format of debate organised in the form of a marathon, consisting of  four person teams competing in a knockout or sudden death type tournament in a competitive Lincoln Douglas debate format. Every team faces a new subject of debate in each round which either it has to defend or fight against.",
+    ],
+    image: "./Debate-A-Thon.jpg",
+  },
+  {
+    title: "Poetry Meet",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "27th May 2023",
+    points: [
+      "It was an  afternoon that was a beautiful brew of poetry and culminated with  new budding poets, who owned the stage with their confidence.The atmosphere felt intimate and welcoming, with opportunities for honest conversations and connection between poets and audience members. Overall, it was a poetry meet that was an inspiring and uplifting experience which embraced the creativity for all the attendees.",
+    ],
+    image: "./Poetry_Meet.jpg",
+  },
+  {
+    title: "MR. LITERATI AND MISS LITERATI  ",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "14th April 2023",
+    points: [
+      "To celebrate the literary connoisseurs and the mastery of language,this event is conducted,where two extraordinary titles, 'Mr. Literati and Miss Literati' are bestowed upon the deserving winners.The esteemed titles stand as a beacon of literary distinction, symbolising the intellectual prowess, the creative brilliance, and the unwavering dedication of the winner towards literature.",
+    ],
+    image: "./Mr.literary.jpg",
+  },
+  {
+    title: "Srijan",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "3rd Sep 2023",
+    points: [
+      "The event was conducted in an online manner through Google Meet. It was an interactive session which helped develop a camaraderie between the student across different years and branches, through their shared love of poetry.",
+    ],
+    image: "./srijan.png",
+  },
+  {
+    title: "Declamation",
+    company_name: "Meta",
+    icon: meta,
+    iconBg: "#E6DEDD",
+    date: "1st Dec 2023",
+    points: [
+      "Declamation is the annual session inaugural event where Participants are each allotted with a speech of historical significance, who are then judged on their fluency, consistency and outlook towards the speech .",
+    ],
+    image: "./declamation.jpg",
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
-
-const projects = [
-  {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
-];
 const dummyImages = [
   {
-    id: 1,
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
+    index: 1,
+    image: "https://randomuser.me/api/portraits/women/3.jpg",
   },
   {
-    id: 2,
-    image: "https://randomuser.me/api/portraits/men/2.jpg",
+    index: 2,
+    image: "https://randomuser.me/api/portraits/women/3.jpg",
   },
   {
-    id: 3,
-    image: "https://randomuser.me/api/portraits/men/3.jpg",
+    index: 3,
+    image: "https://randomuser.me/api/portraits/women/3.jpg",
   },
   {
-    id: 4,
-    image: "https://randomuser.me/api/portraits/men/4.jpg",
+    index: 4,
+    image: "https://randomuser.me/api/portraits/women/3.jpg",
   },
   {
-    id: 5,
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    index: 5,
+    image: "https://randomuser.me/api/portraits/women/3.jpg",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects, dummyImages };
+export { services, technologies, experiences, dummyImages, feedbacks };

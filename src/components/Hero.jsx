@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section className="relative w-full h-screen mx-auto overflow-hidden z-50 opacity-100">
       <div
-        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start gap-5 z-10`}
+        className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl mx-auto flex flex-row items-start  z-10`}
       >
         <div className="hidden sm:flex flex-col justify-center items-center mt-5">
           <div className="w-5 h-5 rounded-full bg-[#915eff] mt-10" />
@@ -38,7 +38,7 @@ const Hero = () => {
 
       <div className="fixed bottom-0 right-0 mb-4 mr-4 z-20 hidden sm:block">
         <img
-          src="../assets/lit_logo.jpg"
+          src="./lit_logo.jpg"
           className="w-24 h-24 rounded-full border-2 border-x-purple-600 hover:border-y-purple-600 cursor-pointer"
           alt="Lit logo"
         />

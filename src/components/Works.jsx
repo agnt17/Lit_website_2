@@ -8,11 +8,11 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Wear the legacy with Pride!</p>
-        <h2 className={styles.sectionHeadText}>
-          <span className="select-none">Merchandise</span>
-        </h2>
-      </motion.div>
+      <p className={styles.sectionSubText}>Wear the legacy with Pride!</p>
+      <h2 className={styles.sectionHeadText}>
+        <span className="select-none">Merchandise</span>
+      </h2>
+      
       <div className="flex items-center justify-center p-4">
         <div className="flex flex-col lg:flex-row bg-white bg-opacity-5 backdrop-blur-md rounded-lg text-center w-full md:w-5/6 lg:w-4/6 lg:h-auto sm:h-auto p-4 relative">
           <div className="w-full lg:w-1/2 pr-2 lg:pr-4">
@@ -36,6 +36,7 @@ const Works = () => {
           <hr />
         </div>
       </div>
+      </motion.div>
     </>
   );
 };

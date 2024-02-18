@@ -593,24 +593,64 @@ const experiences = [
 const dummyImages = [
   {
     index: 1,
-    image: "https://randomuser.me/api/portraits/women/3.jpg",
+    image: "./slider_image_1.jpg",
   },
   {
     index: 2,
-    image: "https://randomuser.me/api/portraits/women/3.jpg",
+    image: "./slider_image_2.jpg",
   },
   {
     index: 3,
-    image: "https://randomuser.me/api/portraits/women/3.jpg",
+    image: "./slider_image_3.jpg",
   },
   {
     index: 4,
-    image: "https://randomuser.me/api/portraits/women/3.jpg",
+    image: "./slider_image_4.jpg",
   },
   {
     index: 5,
-    image: "https://randomuser.me/api/portraits/women/3.jpg",
+    image: "./slider_image_5.jpg",
   },
+  {
+    index: 6,
+    image: "./slider_image_6.jpg",
+  },
+  {
+    index: 7,
+    image: "./slider_image_7.jpg",
+  },
+  {
+    index: 8,
+    image: "./slider_image_8.jpg",
+  },
+  {
+    index: 9,
+    image: "./slider_image_9.jpg",
+  },
+  {
+    index: 10,
+    image: "./slider_image_10.jpg",
+  },
+  {
+    index: 11,
+    image: "./slider_image_11.jpg",
+  },
+  {
+    index: 12,
+    image: "./slider_image_12.jpg",
+  },
+  {
+    index: 13,
+    image: "./slider_image_14.jpg",
+  },
+  {
+    index: 14,
+    image: "./slider_image_15.jpg",
+  },
+  // {
+  //   index: 15,
+  //   image: "./slider_image_15.jpg",
+  // },
 ];
 
 export { services, technologies, experiences, dummyImages, feedbacks };

@@ -37,11 +37,24 @@ const Experience = () => {
         <span className="select-none">Team</span>
       </h2>
       {/* </motion.div> */}
+      <div className="flex lg:flex-row flex-col gap-16 mt-10 mb-20 m-10">
+        <div>
+          <img src="./srijan.png" className="rounded-full" />
+        </div>
+        <div>
+          <img src="./srijan.png" className="rounded-full scale-125" />
+          <h1 className="text-2xl text-center mt-12">Shivani Koshtha</h1>
+          <h3 className="text-xl text-center mt-4">Conveyner</h3>
+        </div>
+        <div>
+          <img src="./srijan.png" className="rounded-full" />
+        </div>
+      </div>
       <div className="flex flex-wrap justify-center items-center gap-28 mt-4">
         {services.map((service, index) => (
           <div
             key={service.title}
-            className={`flex flex-col gap-6 group relative shadow-lg text-white rounded-xl p-4 w-full lg:w-[215px] lg:h-[400px] overflow-hidden cursor-pointer bg-white bg-opacity-5 backdrop-blur-sm  border-2 border-pink-300 hover:border-pink-400  ${
+            className={`flex flex-col gap-6 group relative shadow-lg text-white rounded-3xl p-4 w-full lg:w-[400px] lg:h-[400px] overflow-hidden cursor-pointer bg-white bg-opacity-5 backdrop-blur-sm  border-2 border-pink-300 hover:border-pink-400  ${
               selectedCard === index ? "" : ""
             } hover:scale-110 transition ease-in-out duration-1000 ${
               isScaling ? "scale-100" : ""

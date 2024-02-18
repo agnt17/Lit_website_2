@@ -4,7 +4,7 @@ import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import Slider from "react-slick";
+
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { experiences, dummyImages } from "../constants";
@@ -60,37 +60,12 @@ const ExperienceCard = ({ experience }) => (
   </VerticalTimelineElement>
 );
 
-const CarouselCard = ({ image }) => (
-  <div className="w-full h-96 overflow-hidden rounded-xl lg:w-4/6 mx-auto">
-    <img
-      src={image.image}
-      alt="Carousel"
-      className="w-full h-full object-cover"
-    />
-  </div>
-);
+
 
 const About = () => {
-  const sliderRef = useRef(null);
+  
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      sliderRef.current && sliderRef.current.slickNext();
-    }, 1000);
-
-    return () => clearInterval(intervalId);
-  }, []);
-
-  const settings = {
-    dots: true,
-    arrows: false,
-    infinite: true,
-    speed: 1000, // Adjust the speed for slide transition
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    autoplay: true, // Set to true to enable autoplay
-    autoplaySpeed: 5000, // Adjust the speed for autoplay in milliseconds
-  };
+  
 
   return (
     <>
@@ -100,14 +75,9 @@ const About = () => {
         <span className="select-none">Overview</span>
       </h2>
       {/* </motion.div> */}
-      
+
       {/* insert here */}
 
-      <Slider {...settings} className="mt-10 mb-40" ref={sliderRef}>
-        {dummyImages.map((image, index) => (
-          <CarouselCard key={index} image={image} />
-        ))}
-      </Slider>
       <p className={styles.sectionSubText}>Events Witnessed till Now</p>
       <h2 className={styles.sectionHeadText}>
         <span className="select-none">History</span>

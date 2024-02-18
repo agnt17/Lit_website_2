@@ -54,69 +54,69 @@ export const navLinks = [
 ];
 
 const services = [
-  {
-    id: 1,
-    title: "Conveyer",
-    icon: creator,
-    data: () => (
-      <ul>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Dr. Shivani Koshtha{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-      </ul>
-    ),
-  },
-  {
-    id: 2,
-    title: "Secretory",
-    icon: web,
-    data: () => (
-      <ul>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Anjali Bind{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Suraj Tripathi{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-      </ul>
-    ),
-  },
+  // {
+  //   id: 1,
+  //   title: "Conveyer",
+  //   icon: creator,
+  //   data: () => (
+  //     <ul>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Dr. Shivani Koshtha{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   ),
+  // },
+  // {
+  //   id: 2,
+  //   title: "Secretory",
+  //   icon: web,
+  //   data: () => (
+  //     <ul>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Anjali Bind{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Suraj Tripathi{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   ),
+  // },
   {
     id: 3,
     title: "Web Dev",
@@ -201,201 +201,201 @@ const services = [
       </ul>
     ),
   },
-  {
-    id: 4,
-    title: "Hospitality",
-    icon: backend,
-    data: () => (
-      <ul>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Anjali Bind{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Suraj Tripathi{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-      </ul>
-    ),
-  },
-  {
-    id: 5,
-    title: "Marketing",
-    icon: web,
-    data: () => (
-      <ul>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Anjali Bind{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Suraj Tripathi{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-      </ul>
-    ),
-  },
-  {
-    id: 6,
-    title: "Security",
-    icon: mobile,
-    data: () => (
-      <ul>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Anjali Bind{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Suraj Tripathi{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-      </ul>
-    ),
-  },
-  {
-    id: 7,
-    title: "Publicity",
-    icon: backend,
-    data: () => (
-      <ul>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Anjali Bind{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Suraj Tripathi{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-      </ul>
-    ),
-  },
-  {
-    id: 8,
-    title: "Management",
-    icon: web,
-    data: () => (
-      <ul>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Anjali Bind{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span style={{ marginRight: "4px" }}>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
-          Suraj Tripathi{" "}
-          <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
-            target="_blank"
-            style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
-          >
-            <span style={{ marginRight: "4px" }}>
-              <FaLinkedin />
-            </span>
-            <span style={{ marginRight: "4px" }}>
-              <FaInstagram />
-            </span>
-          </a>
-        </li>
-      </ul>
-    ),
-  },
+  // {
+  //   id: 4,
+  //   title: "Hospitality",
+  //   icon: backend,
+  //   data: () => (
+  //     <ul>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Anjali Bind{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Suraj Tripathi{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   ),
+  // },
+  // {
+  //   id: 5,
+  //   title: "Marketing",
+  //   icon: web,
+  //   data: () => (
+  //     <ul>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Anjali Bind{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Suraj Tripathi{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   ),
+  // },
+  // {
+  //   id: 6,
+  //   title: "Security",
+  //   icon: mobile,
+  //   data: () => (
+  //     <ul>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Anjali Bind{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Suraj Tripathi{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   ),
+  // },
+  // {
+  //   id: 7,
+  //   title: "Publicity",
+  //   icon: backend,
+  //   data: () => (
+  //     <ul>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Anjali Bind{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Suraj Tripathi{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   ),
+  // },
+  // {
+  //   id: 8,
+  //   title: "Management",
+  //   icon: web,
+  //   data: () => (
+  //     <ul>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Anjali Bind{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //       <li style={{ display: "flex", alignItems: "center" }}>
+  //         Suraj Tripathi{" "}
+  //         <a
+  //           href="https://www.linkedin.com/in/madhav-diwedi/"
+  //           target="_blank"
+  //           style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
+  //         >
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaLinkedin />
+  //           </span>
+  //           <span style={{ marginRight: "4px" }}>
+  //             <FaInstagram />
+  //           </span>
+  //         </a>
+  //       </li>
+  //     </ul>
+  //   ),
+  // },
 ];
 
 const technologies = [
@@ -457,7 +457,7 @@ const feedbacks = [
   {
     title: "Kavya Sandhya",
     company_name: "Literary Sub-Council",
-    icon: mobile,
+    icon: creator,
     iconBg: "#383E56",
     date: "13th April 2023",
     points: [
@@ -465,12 +465,12 @@ const feedbacks = [
     ],
     image: "./kavya_sandhya.png",
   },
-]
+];
 const experiences = [
   {
     title: "Kavya Sandhya",
     company_name: "Literary Sub-Council",
-    icon: mobile,
+    icon: backend,
     iconBg: "#383E56",
     date: "13th April 2023",
     points: [
@@ -481,7 +481,7 @@ const experiences = [
   {
     title: "JASHN-E-NAUBAHAR ",
     company_name: "Literary Sub-Council",
-    icon: tesla,
+    icon: backend,
     iconBg: "#E6DEDD",
     date: "11th February 2024",
     points: [
@@ -492,7 +492,7 @@ const experiences = [
   {
     title: "HBTU-MUN",
     company_name: "Literary Sub-Council",
-    icon: shopify,
+    icon: backend,
     iconBg: "#383E56",
     date: "5 Aug 2022 - 7 Aug 2022",
     points: [
@@ -503,7 +503,7 @@ const experiences = [
   {
     title: "Youth Parliament",
     company_name: "Literary Sub-Council",
-    icon: meta,
+    icon: backend,
     iconBg: "#E6DEDD",
     date: "14th April 2023",
     points: [
@@ -514,8 +514,8 @@ const experiences = [
   {
     title: "Kavyotsav",
     company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: backend,
+    iconBg: "#383E56",
     date: "12th April 2023",
     points: [
       "Youth parliament provides a common platform and fosters healthy discussions about policy reforms, parliamentary activities, policymaking, educational programs,etc.Participants are allotted the portfolio of each minister which then lead to a fierce yet fruitful debate between the government and the opposition",
@@ -525,7 +525,7 @@ const experiences = [
   {
     title: "Moot Court",
     company_name: "Meta",
-    icon: meta,
+    icon: backend,
     iconBg: "#E6DEDD",
     date: "28th June 2023",
     points: [
@@ -536,8 +536,8 @@ const experiences = [
   {
     title: "Debate-A-Thon",
     company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: backend,
+    iconBg: "#383E56",
     date: "13th April 2023",
     points: [
       "It is a special format of debate organised in the form of a marathon, consisting of  four person teams competing in a knockout or sudden death type tournament in a competitive Lincoln Douglas debate format. Every team faces a new subject of debate in each round which either it has to defend or fight against.",
@@ -547,7 +547,7 @@ const experiences = [
   {
     title: "Poetry Meet",
     company_name: "Meta",
-    icon: meta,
+    icon: backend,
     iconBg: "#E6DEDD",
     date: "27th May 2023",
     points: [
@@ -558,8 +558,8 @@ const experiences = [
   {
     title: "MR. LITERATI AND MISS LITERATI  ",
     company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: backend,
+    iconBg: "#383E56",
     date: "14th April 2023",
     points: [
       "To celebrate the literary connoisseurs and the mastery of language,this event is conducted,where two extraordinary titles, 'Mr. Literati and Miss Literati' are bestowed upon the deserving winners.The esteemed titles stand as a beacon of literary distinction, symbolising the intellectual prowess, the creative brilliance, and the unwavering dedication of the winner towards literature.",
@@ -569,7 +569,7 @@ const experiences = [
   {
     title: "Srijan",
     company_name: "Meta",
-    icon: meta,
+    icon: backend,
     iconBg: "#E6DEDD",
     date: "3rd Sep 2023",
     points: [
@@ -580,8 +580,8 @@ const experiences = [
   {
     title: "Declamation",
     company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
+    icon: backend,
+    iconBg: "#383E56",
     date: "1st Dec 2023",
     points: [
       "Declamation is the annual session inaugural event where Participants are each allotted with a speech of historical significance, who are then judged on their fluency, consistency and outlook towards the speech .",

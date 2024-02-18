@@ -31,8 +31,8 @@ const Hero = () => {
 
         {/* Logo for small screens */}
         <img
-          src="./lit_logo.jpg"
-          className="sm:hidden w-3/4 h-auto rounded-full mt-72 hover:border border-4 border-opacity-0 border-blue-500"
+          src="./lit_logo_svg_icon.svg"
+          className="sm:hidden bg-purple-900 w-2/4 h-auto rounded-full mt-72 hover:border border-4 border-opacity-0 border-blue-500 "
         />
       </div>
 

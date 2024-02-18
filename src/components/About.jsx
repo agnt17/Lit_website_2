@@ -100,6 +100,8 @@ const About = () => {
         <span className="select-none">Overview</span>
       </h2>
       {/* </motion.div> */}
+      
+      {/* insert here */}
 
       <Slider {...settings} className="mt-10 mb-40" ref={sliderRef}>
         {dummyImages.map((image, index) => (

@@ -687,6 +687,17 @@ const experiences = [
     ],
     image: "./essay_writing.jpg",
   },
+  {
+    title: "Kavyanjali",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "Poetry club organised an online poetry competition for freshers where the students of various courses participated with immense enthusiasm. It encouraged the freshers at the very beginning of their college journey to excel in the field of poetry. ",
+    ],
+    image: "./kavyanjali.jpg",
+  },
 ];
 
 const dummyImages = [
@@ -752,4 +763,102 @@ const dummyImages = [
   // },
 ];
 
-export { services, technologies, experiences, dummyImages, feedbacks };
+const gov_events = [
+  {
+    title: "Azadi ka amrit mahotsava",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "Several Independence Day-themed competitions were conducted to mark the celebration of Azadi ka Amrit Mahotsav, such as debate competitions and essay writing competitions, in which many students successfully participated. This was followed by felicitations of the winners of the event by the dignitaries present there. ",
+    ],
+    image: "./azadi.jpg",
+  },
+  {
+    title: "Gandhi jayanti ",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "To celebrate the 153rd birth anniversary of Mahatma Gandhi and the 118th birth anniversary of Lal Bahadur Shastri, a poetry and extempore competition was organized in which many students  beautifully presented themselves. ",
+    ],
+    image: "./gandhi_jayanti.jpg",
+  },
+  {
+    title: "Balika diwas",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "The Literary Sub-Council coordinated the event held to commemorate the Balika Diwas and successfully conducted a poetry and debate competition with the full participation of the students.",
+    ],
+    image: "./balika.jpg",
+  },
+  {
+    title: "Geet sandesh manav shrankhala",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "The event was aimed at promoting Geeta's learning through a human chain formation. The theme was `Geeta Sandesh Manav Shrankhala`. The event began with the preaching of Geeta and its history, which was followed by speeches on the theme delivered by the students.",
+    ],
+    image: "./geet_divas.jpg",
+  },
+  {
+    title: "Constitution day",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "A session was organized in which various aspects of the constitution as well as theimportance of fundamental rights as well as duties was discussed. The students also put forward their views on the preamble and various articles mentioned in the Constitution.",
+    ],
+    image: "./constitution.jpg",
+  },
+  {
+    title: "Bhartiya bhasha diwas",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "An online meet was organized to mark the Bhartiya Bhasha Diwas in which the principle of `unity` and how we remain united among the linguistic diversity was discussed.Healthy arguments took place between students as they discussed the different factors that cause the diversity of languages.",
+    ],
+    image: "./bhasa_diwas.png",
+  },
+  {
+    title: "Republic day",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "During the Republic Day, our honourable dignitaries addressed all the students regarding our history which helped shape the students' vision towards the nation.A run for fun was organized for both the students and the faculty members. ",
+    ],
+    image: "./republic_day.jpg",
+  },
+  {
+    title: "Ambedkar jayanti",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "The honourable dignitaries addressed the students on the life of Baba Saheb Ambedkar and highlighted the importance of education in societysociety for growth.",
+    ],
+    image: "./ambedkar_jayanti.jpg",
+  },
+];
+
+export {
+  services,
+  technologies,
+  experiences,
+  dummyImages,
+  feedbacks,
+  gov_events,
+};

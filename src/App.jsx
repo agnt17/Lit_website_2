@@ -9,6 +9,7 @@ import {
   StarsCanvas,
   Tech,
   Works,
+  Government_events,
 } from "./components";
 import Footer from "./components/Footer";
 
@@ -23,6 +24,7 @@ const App = () => {
         </div>
         {/* <StarsCanvas /> */}
         <About />
+        <Government_events/>
         <Feedbacks />
         {/* this is events file*/}
         <Experience />
@@ -32,7 +34,7 @@ const App = () => {
         {/* This is merchandise file... */}
         <div className="relative z-0">
           <Contact />
-          {/* <StarsCanvas /> */}
+          <StarsCanvas />
         </div>
         <Footer />
       </div>

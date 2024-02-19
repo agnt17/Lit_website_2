@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
-import { experiences } from "../constants";
+import { gov_events } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
 
@@ -54,41 +54,33 @@ const ExperienceCard = ({ experience }) => (
   </VerticalTimelineElement>
 );
 
-const About = () => {
+const GovernmentEvents = () => {
   const initialVisibleCards = 2;
   const [visibleCards, setVisibleCards] = useState(initialVisibleCards);
 
-  const handleSeeMore = () => {
-    setVisibleCards(experiences.length);
+  const handleSeeMore = (e) => {
+    e.preventDefault();
+    setVisibleCards(gov_events.length);
   };
 
-  const handleSeeLess = () => {
+  const handleSeeLess = (e) => {
+    e.preventDefault();
     setVisibleCards(initialVisibleCards);
-    // Scroll to the top of the component when "See Less" is clicked
-    window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
   return (
     <>
-      <p className={styles.sectionSubText}>Who we really are</p>
+      <p className={styles.sectionSubText}>Government Mandated Events</p>
       <h2 className={styles.sectionHeadText}>
-        <span className="select-none">Overview</span>
+        <span className="select-none">Mandated Events</span>
       </h2>
-
-      {/* insert here */}
-
-      <p className={styles.sectionSubText}>Events Witnessed till Now</p>
-      <h2 className={styles.sectionHeadText}>
-        <span className="select-none">History</span>
-      </h2>
-
       <VerticalTimeline className="mt-10">
-        {experiences.slice(0, visibleCards).map((experience, index) => (
+        {gov_events.slice(0, visibleCards).map((experience, index) => (
           <ExperienceCard key={index} experience={experience} />
         ))}
       </VerticalTimeline>
 
-      {visibleCards < experiences.length && (
+      {visibleCards < gov_events.length && (
         <div className="mt-3 flex justify-center">
           <button
             className="text-white underline text-xl p-5 rounded-lg bg-purple-700 hover:bg-purple-950"
@@ -113,4 +105,4 @@ const About = () => {
   );
 };
 
-export default SectionWrapper(About, "about");
+export default SectionWrapper(GovernmentEvents, "gov_events");

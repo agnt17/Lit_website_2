@@ -45,7 +45,7 @@ const Experience = () => {
             alt="Shivani Koshtha"
           />
           <h1 className="text-2xl text-center mt-12">Ms. Shivani Koshtha</h1>
-          <h3 className="text-xl text-center mt-4 text-blue-700">Convener</h3>
+          <h3 className="text-xl text-center mt-4 text-teal-400">Convener</h3>
           <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
         </div>
 

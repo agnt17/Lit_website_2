@@ -75,20 +75,71 @@ const About = () => {
         <span className="select-none">Overview</span>
       </h2>
       <p>
-        <span className="text-3xl flex text-teal-500 font-bold mb-4 mt-4">
-          Callidus
+        <span className="text-4xl   flex text-teal-500 font-bold mb-4 mt-4 ">
+          Literary Sub-Council{" "}
         </span>
-        Communita Del Colloquio Callidus is a fairly new and unarguably the most
-        active club of the sub-council, it was started with a very ambitious aim
-        of improving the campus culture of the university but getting the
-        students involved in a mentally stimulating array of activities
-        [Debates, Declamations, Extempore, Group Discussions, Words Jams,
-        Recitation Elocutionand] many more. More recently this organising team
-        of this club dubbing themselves as Callidus Council have tried to shape
-        their activities in a fashion that closely resembles the real world
-        implications of the communication skills it has always advocated so as
-        to give the student body a taste of what they stand to face when they
-        graduate from college.
+        It is one of the nine affiliates adorning the University Students'
+        Activity Council of HBTU, Kanpur. The University is committed for
+        overall personality development of the students. The USAC activities are
+        aimed at grooming extra-curriculum skills of the students and the
+        literary sub-council takes care of few of these aspects that the
+        University tries to inculcate in its students through USAC. This
+        sub-council, as the name suggests, deals with the any and all events and
+        activities falling in the literary category, which encompasses a huge
+        array of activities which not only focus upon the presentation and
+        communication skills of the student but also cultivate in them a more
+        awakened imagination and enhance their empathy for others and lead them
+        to develop their own creativity. The sheer volume of categories that
+        comes under the purview of this sub-council speaks of the effect it has,
+        or to be more precise, can have on the personality of the students
+        should they chose to partake. Literary Sub-Council with the aid of a
+        Faculty Convener and Student Secretaries conducts various events
+        throughout the year to help the student body get the most enriching yet
+        intellectually challenging experience of their college lives. The entire
+        academic calendar flaunts a lot of literary events of varying magnitudes
+        strategically placed so as not to disrupt the academics and also to
+        attract maximum involved from the student body. The events of the
+        largest volume and/or paramount importance are conducted by the Team
+        Literary Sub-Council as a whole.
+        <div className="flex flex-col text-lg  text-purple-400 mt-3">
+          <span className="text-xl font-bold mb-4">
+            Some of the events that fall under the aforementioned description
+            are as follows:
+          </span>
+          <span>•Kavya Sandhya</span>
+          <span>•Annual Literary Fest [Hunkaar]</span>
+          <span>•Jashn-e-Naubahar </span>
+          <span>•Miscellaneous Government Mandated Events</span>
+          <span>•Inter-Collegiate Events</span>
+        </div>
+      </p>
+      <p className="mt-5 mb-5 text-white">
+        But this doesn't even begin to cover our lengthy calendar of events but
+        for organisational lise we have allocated these events to various clubs
+        that function under the aegis of the Literary Sub-Council based on their
+        area of expertise.
+      </p>
+      <p className="text-xl text-bold">
+        Literary sub-council in regard to its staggering work load also flaunts
+        more clubs than any other sub-council of HBTU which are as follows:
+      </p>
+      <p>
+        <span className="text-3xl flex text-teal-500 font-bold mb-7 mt-7">
+          Callidus Community
+        </span>
+        Callidus was started with a very ambitious aim of improving the campus
+        culture of the university but getting the students involved in a
+        mentally stimulating array of activities (Debates, Declamations,
+        Extempore, Group Discussions, Words Jams, Recitation Elocution) and many
+        more.
+        <p className="mt-2">
+          More recently the organising team of this club dubbing themselves as
+          Callidus Council have tried to shape their activities in a fashion
+          that closely resembles the real world implications of the
+          communication skills it has always advocated so as to give the student
+          body a taste of what they stand to face when they graduate from
+          college.
+        </p>
         <div className="flex flex-col text-lg  text-purple-400 mt-3">
           <span className="text-xl font-bold">
             Some of the major events by Callidus:

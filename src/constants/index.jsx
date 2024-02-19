@@ -551,7 +551,7 @@ const experiences = [
     image: "./HBTU_MUN.png",
   },
   {
-    title: "Youth Parliament",
+    title: "Kavyotsav",
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#E6DEDD",
@@ -559,10 +559,10 @@ const experiences = [
     points: [
       "Kavyotsav helped one to shed their inhibitions and fears by expressing their feelings and getting connected to the stories of others.  The students presented their own compositions, including poetry on various themes such as mother, college life, and nature, along with shayaris, nazms, and ghazals from celebrated shayars and poets, encompassing the navras, including veer ras, shringar ras, hasya ras, karun ras, and various other genres.",
     ],
-    image: "./youth-parliament.jpg",
+    image: "./kavyotsav.jpg ",
   },
   {
-    title: "Kavyotsav",
+    title: "Youth Parliament",
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
@@ -570,7 +570,7 @@ const experiences = [
     points: [
       "Youth parliament provides a common platform and fosters healthy discussions about policy reforms, parliamentary activities, policymaking, educational programs,etc.Participants are allotted the portfolio of each minister which then lead to a fierce yet fruitful debate between the government and the opposition",
     ],
-    image: "./kavyotsav.jpg",
+    image: "./youth-parliament.jpg",
   },
   {
     title: "Moot Court",
@@ -643,7 +643,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "Monthly",
     points: [
       "It is an alumni interaction series, featuring the alumni of poetry club, as well as renowned poets.Bal Mohan Pandey, the famous poet, Aman Rajan Katariya, the founder of poetry club, are some of the guests who have graced the sessions. It is conducted on a monthly basis.",
     ],
@@ -654,7 +654,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "Yearly",
     points: [
       "It was an online poetry competition where participants had to register themselves as a team of two or more.As the name suggests, it was an opportunity for the participants to express themselves in the best way possible.",
     ],
@@ -665,7 +665,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "21st Aug 2023",
     points: [
       "An introduction programme was organised for the first-year students by the Literary Sub Council to welcome them to the college and familiarise them with the various literary activities and opportunities available.",
     ],
@@ -676,7 +676,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "Weekly",
     points: [
       "Discord sessions,conducted in online mode, are open to all students and give them the opportunity to interact with other students and seniors while engaging in fun discussions and games. Every session has a different theme and objective.",
     ],
@@ -687,7 +687,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "Monthly",
     points: [
       "The English Literacy Workshop, conducted monthly, provides a supportive and collaborative learning environment that promotes active participation and fosters growth in a fun and engaging way. The workshop is open to all students to improve their reading, writing, and communication skills. ",
     ],
@@ -698,7 +698,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "Monthly",
     points: [
       "The Debating Workshop conducted monthly, provides students with practical skills that can be utilised in their daily lives, leading to better academic and professional opportunities. It provides a platform to build a network with like-minded individuals and practise communication skills in a quality environment. ",
     ],
@@ -709,7 +709,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "Weekly",
     points: [
       "Weekly held ROTA sessions are refreshing, engrossing, and interactive talk sessions with a group of bibliophiles and avid movie enthusiasts. They entail intriguing, zealous, and captivating discussions from the books of Agatha Christie and Enid Blyton to sci-fi, philosophical movies, and enticing web series. ",
     ],
@@ -720,7 +720,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "13th April 2023",
     points: [
       "This event puts to test the  movie knowledge with some trivia. From iconic quotes to behind-the-scenes secrets, the event has it all. It is full of fascinating questions and brain-teasing challenges based on popular movies. It is no less than a battle of movie buffs with the best one winning the competition.",
     ],
@@ -731,7 +731,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "15th June 2023",
     points: [
       "This essay writing competition is organized in an effort to harness the energy, creativity and initiative of the students in promoting a culture of literature. It also aims to inspire society to learn from the young minds and to think about how each of us can make a difference in the world.",
     ],
@@ -742,7 +742,7 @@ const experiences = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "5th Jan 2024",
     points: [
       "Poetry club organised an online poetry competition for freshers where the students of various courses participated with immense enthusiasm. It encouraged the freshers at the very beginning of their college journey to excel in the field of poetry. ",
     ],
@@ -796,10 +796,6 @@ const dummyImages = [
     image: "./slider_image_13.jpg",
   },
   {
-    index: 14,
-    image: "./slider_image_14.jpg",
-  },
-  {
     index: 15,
     image: "./slider_image_15.jpg",
   },
@@ -811,18 +807,12 @@ const dummyImages = [
     index: 17,
     image: "./slider_image_17.jpg",
   },
-  {
-    index: 18,
-    image: "./slider_image_18.jpg",
-  },
+
   {
     index: 19,
     image: "./slider_image_19.jpg",
   },
-  {
-    index: 20,
-    image: "./slider_image_20.jpg",
-  },
+
   {
     index: 21,
     image: "./slider_image_21.jpg",

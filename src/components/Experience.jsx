@@ -37,11 +37,11 @@ const Experience = () => {
         <span className="select-none">Team</span>
       </h2>
       {/* </motion.div> */}
-      <div className="flex lg:flex-row flex-col gap-16 mt-10 mb-20 m-10">
+      <div className="flex lg:flex-row flex-col gap-8 mt-10 mb-20 m-10 ">
         <div className="lg:w-1/3 flex flex-col items-center">
           <img
             src="./shivani_koshta.jpg"
-            className="rounded-2xl object-cover w-full h-48 lg:h-auto"
+            className="rounded-2xl object-cover w-56 h-56"
             alt="Shivani Koshtha"
           />
           <h1 className="text-2xl text-center mt-12">Ms. Shivani Koshtha</h1>
@@ -52,7 +52,7 @@ const Experience = () => {
         <div className="lg:w-1/3 flex flex-col items-center mt-8 lg:mt-0">
           <img
             src="./anjali_bind.jpg"
-            className="rounded-2xl object-cover w-full h-48 lg:h-auto"
+            className="rounded-2xl object-cover w-56 h-56"
             alt="Anjali Bind"
           />
           <h1 className="text-2xl text-center mt-12">Anjali Bind</h1>
@@ -63,7 +63,7 @@ const Experience = () => {
         <div className="lg:w-1/3 flex flex-col items-center mt-8 lg:mt-0">
           <img
             src="./suraj_.jpg"
-            className="rounded-2xl object-cover w-full h-48 lg:h-auto"
+            className="rounded-2xl object-cover w-56 h-56"
             alt="Suraj Tripathi"
           />
           <h1 className="text-2xl text-center mt-12">Suraj Tripathi</h1>

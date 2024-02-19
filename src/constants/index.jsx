@@ -906,7 +906,7 @@ const gov_events = [
     image: "./balika.jpg",
   },
   {
-    title: "Geet sandesh manav shrankhala",
+    title: "Geeta sandesh manav shrankhala",
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",

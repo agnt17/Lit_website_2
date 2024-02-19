@@ -7,7 +7,7 @@ import { styles } from "../styles";
 import Slider from "react-slick";
 
 const CarouselCard = ({ image }) => (
-  <div className="w-5/6 h-96 overflow-hidden rounded-xl lg:w-3/6 mx-auto">
+  <div className="w-5/6 h-96 overflow-hidden rounded-xl lg:w-2/6 mx-auto">
     <img
       src={image.image}
       alt="Carousel"

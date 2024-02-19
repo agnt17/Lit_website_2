@@ -6,6 +6,7 @@ import {
 import { experiences } from "../constants";
 import { SectionWrapper } from "../hoc";
 import { styles } from "../styles";
+import { FaInstagram } from "react-icons/fa";
 
 const ExperienceCard = ({ experience }) => (
   <VerticalTimelineElement
@@ -126,6 +127,13 @@ const About = () => {
       <p>
         <span className="text-3xl flex text-teal-500 font-bold mb-7 mt-7">
           Callidus Community
+          <a
+            href="https://www.instagram.com/callidus_community/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="mt-1 ml-4" />
+          </a>
         </span>
         Callidus was started with a very ambitious aim of improving the campus
         culture of the university but getting the students involved in a
@@ -158,6 +166,13 @@ const About = () => {
       <p>
         <span className="text-3xl flex text-teal-500 font-bold mb-4">
           Poetry Club HBTU
+          <a
+            href="https://www.instagram.com/poetryclub_hbtu/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="mt-1 ml-4" />
+          </a>
         </span>
         This is one club, which we believe, doesn't need any introduction. True
         to their name they are the poetry club of the university and one of the
@@ -181,6 +196,13 @@ const About = () => {
       <p>
         <span className="text-3xl flex text-teal-500 font-bold mb-4 mt-4">
           Readers of the Arc (ROTA)
+          <a
+            href="https://www.instagram.com/r_o_t_a_/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="mt-1 ml-4" />
+          </a>
         </span>
         The benefits of reading isn't unbeknownst to anyone, irrespective of the
         career path an individual chooses for itself, books of myriad genres
@@ -208,6 +230,13 @@ const About = () => {
       <p>
         <span className="text-3xl flex text-teal-500 font-bold mb-4 mt-4">
           Finamics
+          <a
+            href="https://www.instagram.com/finamics_/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaInstagram className="mt-1 ml-4" />
+          </a>
         </span>
         There is something more that we need to go out into the world as a
         complete professional other than the knowledge of our respective traits,

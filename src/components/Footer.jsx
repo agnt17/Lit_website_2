@@ -23,19 +23,7 @@ function Footer() {
                 <FaInstagram />
               </a>
             </li>
-            <li className="flex ml-4 mr-4 text-3xl text-gray-400">
-              <a
-                href="https://www.instagram.com/callidus_community/"
-                target="_blank"
-              >
-                <FaInstagram />
-              </a>
-            </li>
-            <li className="flex ml-4 mr-4 text-3xl text-gray-400">
-              <a href="https://www.instagram.com/r_o_t_a_/" target="_blank">
-                <FaInstagram />
-              </a>
-            </li>
+            
           </ul>
         </div>
       </footer>

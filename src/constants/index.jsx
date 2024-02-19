@@ -877,7 +877,7 @@ const gov_events = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "11th-17th Aug",
     points: [
       "Several Independence Day-themed competitions were conducted to mark the celebration of Azadi ka Amrit Mahotsav, such as debate competitions and essay writing competitions, in which many students successfully participated. This was followed by felicitations of the winners of the event by the dignitaries present there. ",
     ],
@@ -888,7 +888,7 @@ const gov_events = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "2nd Oct",
     points: [
       "To celebrate the 153rd birth anniversary of Mahatma Gandhi and the 118th birth anniversary of Lal Bahadur Shastri, a poetry and extempore competition was organized in which many students  beautifully presented themselves. ",
     ],
@@ -899,7 +899,7 @@ const gov_events = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "11th Oct",
     points: [
       "The Literary Sub-Council coordinated the event held to commemorate the Balika Diwas and successfully conducted a poetry and debate competition with the full participation of the students.",
     ],
@@ -910,7 +910,7 @@ const gov_events = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "3rd Nov",
     points: [
       "The event was aimed at promoting Geeta's learning through a human chain formation. The theme was `Geeta Sandesh Manav Shrankhala`. The event began with the preaching of Geeta and its history, which was followed by speeches on the theme delivered by the students.",
     ],
@@ -921,7 +921,7 @@ const gov_events = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "26th Nov",
     points: [
       "A session was organized in which various aspects of the constitution as well as theimportance of fundamental rights as well as duties was discussed. The students also put forward their views on the preamble and various articles mentioned in the Constitution.",
     ],
@@ -932,7 +932,7 @@ const gov_events = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "11th Dec",
     points: [
       "An online meet was organized to mark the Bhartiya Bhasha Diwas in which the principle of `unity` and how we remain united among the linguistic diversity was discussed.Healthy arguments took place between students as they discussed the different factors that cause the diversity of languages.",
     ],
@@ -943,7 +943,7 @@ const gov_events = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "26th Jan",
     points: [
       "During the Republic Day, our honourable dignitaries addressed all the students regarding our history which helped shape the students' vision towards the nation.A run for fun was organized for both the students and the faculty members. ",
     ],
@@ -954,7 +954,7 @@ const gov_events = [
     company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
-    date: "1st Dec 2023",
+    date: "14th April",
     points: [
       "The honourable dignitaries addressed the students on the life of Baba Saheb Ambedkar and highlighted the importance of education in societysociety for growth.",
     ],

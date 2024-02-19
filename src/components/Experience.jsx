@@ -38,18 +38,40 @@ const Experience = () => {
       </h2>
       {/* </motion.div> */}
       <div className="flex lg:flex-row flex-col gap-16 mt-10 mb-20 m-10">
-        <div>
-          <img src="./srijan.png" className="rounded-full" />
+        <div className="lg:w-1/3 flex flex-col items-center">
+          <img
+            src="./shivani_koshta.jpg"
+            className="rounded-2xl object-cover w-full h-48 lg:h-auto"
+            alt="Shivani Koshtha"
+          />
+          <h1 className="text-2xl text-center mt-12">Ms. Shivani Koshtha</h1>
+          <h3 className="text-xl text-center mt-4 text-blue-700">Convener</h3>
+          <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
         </div>
-        <div>
-          <img src="./srijan.png" className="rounded-full scale-125" />
-          <h1 className="text-2xl text-center mt-12">Shivani Koshtha</h1>
-          <h3 className="text-xl text-center mt-4">Conveyner</h3>
+
+        <div className="lg:w-1/3 flex flex-col items-center mt-8 lg:mt-0">
+          <img
+            src="./anjali_bind.jpg"
+            className="rounded-2xl object-cover w-full h-48 lg:h-auto"
+            alt="Anjali Bind"
+          />
+          <h1 className="text-2xl text-center mt-12">Anjali Bind</h1>
+          <h3 className="text-xl text-center mt-4 text-teal-400">Secretary</h3>
+          <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
         </div>
-        <div>
-          <img src="./srijan.png" className="rounded-full" />
+
+        <div className="lg:w-1/3 flex flex-col items-center mt-8 lg:mt-0">
+          <img
+            src="./suraj_.jpg"
+            className="rounded-2xl object-cover w-full h-48 lg:h-auto"
+            alt="Suraj Tripathi"
+          />
+          <h1 className="text-2xl text-center mt-12">Suraj Tripathi</h1>
+          <h3 className="text-xl text-center mt-4 text-teal-400">Secretary</h3>
+          <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
         </div>
       </div>
+
       <div className="flex flex-wrap justify-center items-center gap-28 mt-4">
         {services.map((service, index) => (
           <div
@@ -80,7 +102,9 @@ const Experience = () => {
                 }`}
               >
                 <h2 className="text-2xl text-pink-400">MEMBERS</h2>
-                <p>{service.data()}</p>
+                <p className=" text-2xl hover:transition ease-in-out duration-1000">
+                  {service.data()}
+                </p>
                 {/* You can customize the display of service data here */}
               </div>
             </div>

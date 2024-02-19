@@ -33,7 +33,7 @@ export const navLinks = [
   },
   {
     id: "events",
-    title: "Events",
+    title: "Hunkaar'24",
   },
   {
     id: "team",
@@ -45,7 +45,7 @@ export const navLinks = [
   },
   {
     id: "tech",
-    title: "Tech",
+    title: "Magazine",
   },
   {
     id: "contact",
@@ -123,78 +123,128 @@ const services = [
     icon: mobile,
     data: () => (
       <ul className="flex flex-col">
-        <li style={{ display: "flex", alignItems: "center" }}>
+        <li
+          style={{ display: "flex", alignItems: "center" }}
+          className="hover:text-teal-400"
+        >
           Madhav Diwedi{" "}
           <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
+            href="https://www.linkedin.com/in/madhav-dwivedi-59905b231/"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
             <span style={{ marginRight: "4px" }}>
               <FaLinkedin />
             </span>
-            <span>
-              <FaInstagram />
+            <span href="https://www.instagram.com/madhavv07/">
+              <a
+                href="https://www.instagram.com/madhavv07/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
             </span>
           </a>
         </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
+        <li
+          style={{ display: "flex", alignItems: "center" }}
+          className="hover:text-teal-400 "
+        >
           Aditya Gupta{" "}
           <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
+            href="https://www.linkedin.com/in/aditya-gupta-452790229/"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
             <span style={{ marginRight: "4px" }}>
               <FaLinkedin />
             </span>
-            <span>
-              <FaInstagram />
+            <span href="https://www.instagram.com/adityagupta1859/">
+              <a
+                href="https://www.instagram.com/adityagupta1859/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
             </span>
           </a>
         </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
+        <li
+          style={{ display: "flex", alignItems: "center" }}
+          className="hover:text-teal-400"
+        >
           Harsh Agarwal{" "}
           <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
+            href="https://www.linkedin.com/in/harsh-agarwal-68577a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
             <span style={{ marginRight: "4px" }}>
               <FaLinkedin />
             </span>
-            <span>
-              <FaInstagram />
+            <span href="https://www.instagram.com/harsh._.agarwaal?igsh=MWE2a3h4eWV3dnEybw==">
+              <a
+                href="https://www.instagram.com/harsh._.agarwaal?igsh=MWE2a3h4eWV3dnEybw=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
             </span>
           </a>
         </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
+        <li
+          style={{ display: "flex", alignItems: "center" }}
+          className="hover:text-teal-400"
+        >
           Kaustubh Dixit{" "}
           <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
+            href="https://www.linkedin.com/in/kaustubhdidit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
             <span style={{ marginRight: "4px" }}>
               <FaLinkedin />
             </span>
-            <span>
-              <FaInstagram />
+            <span href="https://www.instagram.com/kaustubhdidit?igsh=MTEwaHFtYjVyeWFlOA==">
+              <a
+                href="https://www.instagram.com/kaustubhdidit?igsh=MTEwaHFtYjVyeWFlOA=="
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
             </span>
           </a>
         </li>
-        <li style={{ display: "flex", alignItems: "center" }}>
+        <li
+          style={{ display: "flex", alignItems: "center" }}
+          className="hover:text-teal-400"
+        >
           Akshaya Singh{" "}
           <a
-            href="https://www.linkedin.com/in/madhav-diwedi/"
+            href="https://www.linkedin.com/in/akshaya-singh-b65864229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
+            rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
             <span style={{ marginRight: "4px" }}>
               <FaLinkedin />
             </span>
-            <span>
-              <FaInstagram />
+            <span href="https://www.instagram.com/_akshaya.pratap_/">
+              <a
+                href="https://www.instagram.com/_akshaya.pratap_/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FaInstagram />
+              </a>
             </span>
           </a>
         </li>
@@ -454,17 +504,17 @@ const technologies = [
 ];
 
 const feedbacks = [
-  {
-    title: "Kavya Sandhya",
-    company_name: "Literary Sub-Council",
-    icon: creator,
-    iconBg: "#383E56",
-    date: "13th April 2023",
-    points: [
-      "Kavya Sandhya organized during the annual fest of the university is a poetry symposium,witnessing the presence of many great poets across the country.Shakeel Azmi, Mehshar Afridi,Dr. Kumar Vishwas, Rahat Indori etc have been a part of this poetry conclave.",
-    ],
-    image: "./kavya_sandhya.png",
-  },
+  // {
+  //   title: "Kavya Sandhya",
+  //   company_name: "Literary Sub-Council",
+  //   icon: creator,
+  //   iconBg: "#383E56",
+  //   date: "13th April 2023",
+  //   points: [
+  //     "Kavya Sandhya organized during the annual fest of the university is a poetry symposium,witnessing the presence of many great poets across the country.Shakeel Azmi, Mehshar Afridi,Dr. Kumar Vishwas, Rahat Indori etc have been a part of this poetry conclave.",
+  //   ],
+  //   image: "./kavya_sandhya.png",
+  // },
 ];
 const experiences = [
   {
@@ -608,7 +658,7 @@ const experiences = [
     points: [
       "It was an online poetry competition where participants had to register themselves as a team of two or more.As the name suggests, it was an opportunity for the participants to express themselves in the best way possible.",
     ],
-    image: "./guftagoo.jpg",
+    image: "./abhivyakti.jpg",
   },
   {
     title: "Induction program",
@@ -663,7 +713,7 @@ const experiences = [
     points: [
       "Weekly held ROTA sessions are refreshing, engrossing, and interactive talk sessions with a group of bibliophiles and avid movie enthusiasts. They entail intriguing, zealous, and captivating discussions from the books of Agatha Christie and Enid Blyton to sci-fi, philosophical movies, and enticing web series. ",
     ],
-    image: "./Rota  _sessions.png",
+    image: "./Rota_sessions.png",
   },
   {
     title: "Movie time trivia",
@@ -722,10 +772,6 @@ const dummyImages = [
     image: "./slider_image_5.jpg",
   },
   {
-    index: 6,
-    image: "./slider_image_6.jpg",
-  },
-  {
     index: 7,
     image: "./slider_image_7.jpg",
   },
@@ -738,10 +784,6 @@ const dummyImages = [
     image: "./slider_image_9.jpg",
   },
   {
-    index: 10,
-    image: "./slider_image_10.jpg",
-  },
-  {
     index: 11,
     image: "./slider_image_11.jpg",
   },
@@ -751,16 +793,92 @@ const dummyImages = [
   },
   {
     index: 13,
-    image: "./slider_image_14.jpg",
+    image: "./slider_image_13.jpg",
   },
   {
     index: 14,
+    image: "./slider_image_14.jpg",
+  },
+  {
+    index: 15,
     image: "./slider_image_15.jpg",
   },
-  // {
-  //   index: 15,
-  //   image: "./slider_image_15.jpg",
-  // },
+  {
+    index: 16,
+    image: "./slider_image_16.jpg",
+  },
+  {
+    index: 17,
+    image: "./slider_image_17.jpg",
+  },
+  {
+    index: 18,
+    image: "./slider_image_18.jpg",
+  },
+  {
+    index: 19,
+    image: "./slider_image_19.jpg",
+  },
+  {
+    index: 20,
+    image: "./slider_image_20.jpg",
+  },
+  {
+    index: 21,
+    image: "./slider_image_21.jpg",
+  },
+  {
+    index: 22,
+    image: "./slider_image_22.jpg",
+  },
+  {
+    index: 23,
+    image: "./slider_image_23.jpg",
+  },
+  {
+    index: 24,
+    image: "./slider_image_24.jpg",
+  },
+  {
+    index: 25,
+    image: "./slider_image_25.jpg",
+  },
+  {
+    index: 26,
+    image: "./slider_image_26.jpg",
+  },
+  {
+    index: 27,
+    image: "./slider_image_27.jpg",
+  },
+  {
+    index: 28,
+    image: "./slider_image_28.jpg",
+  },
+  {
+    index: 29,
+    image: "./slider_image_29.jpg",
+  },
+  {
+    index: 30,
+    image: "./slider_image_30.jpg",
+  },
+  {
+    index: 31,
+    image: "./slider_image_31.jpg",
+  },
+  {
+    index: 132,
+    image: "./slider_image_32.jpg",
+  },
+  {
+    index: 33,
+    image: "./slider_image_33.jpg",
+  },
+  {
+    index: 34,
+    image: "./slider_image_34.jpg",
+  },
 ];
 
 const gov_events = [

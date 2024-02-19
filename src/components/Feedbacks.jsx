@@ -56,25 +56,26 @@ const Feedbacks = () => {
   return (
     <>
       {/* <motion.div variants={textVariant()}> */}
-        <p className={styles.sectionSubText}>This year what we Expect</p>
-        <h2 className={styles.sectionHeadText}>
-          <span className="select-none">Events</span>
-        </h2>
+      <p className={styles.sectionSubText}>This year what we Expect</p>
+      <h2 className={styles.sectionHeadText}>
+        <span className="select-none">Events</span>
+      </h2>
       {/* </motion.div> */}
 
       <div
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+        className="mt-4 text-white text-[17px] max-w-3xl leading-[30px] flex flex-col gap-3"
       >
-        This section is dedicated to what events will happen this year and at
-        which dates.
+        <span className="font-extralight">Coming soon...</span>
+        <span className="text-2xl">Events itenary will be shown here </span>
+        <span className="font-extralight text-teal-400">Stay Tuned...</span>
       </div>
       <div className="mt-20 flex flex-col ">
-        <VerticalTimeline>
+        {/* <VerticalTimeline>
           {feedbacks.map((feedbacks, index) => (
             <ExperienceCard key={index} feedbacks={feedbacks} />
           ))}
-        </VerticalTimeline>
+        </VerticalTimeline> */}
       </div>
     </>
   );

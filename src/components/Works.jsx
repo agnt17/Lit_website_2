@@ -38,8 +38,8 @@ const Works = () => {
           <div className="items-center">
             <p className="text-2xl">Buy your Tshirt Right here</p>
             <a
-              href="https://www.google.com"
-              className="flex justify-center items-center mt-5"
+              href="https://forms.gle/SUbbvupRLtWj6eLc8"
+              className="flex justify-center items-center mt-5 text-teal-500 font-semibold text-2xl hover:text-teal-700 "
               target="_blank"
               rel="noopener noreferrer"
             >

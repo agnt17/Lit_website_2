@@ -83,7 +83,7 @@ const GovernmentEvents = () => {
       {visibleCards < gov_events.length && (
         <div className="mt-3 flex justify-center">
           <button
-            className="text-white underline text-xl p-5 rounded-lg bg-purple-700 hover:bg-purple-950"
+            className="text-white text-xl p-4 rounded-xl bg-purple-700 hover:bg-purple-950"
             onClick={handleSeeMore}
           >
             See More
@@ -94,7 +94,7 @@ const GovernmentEvents = () => {
       {visibleCards > initialVisibleCards && (
         <div className="mt-7 flex justify-center">
           <button
-            className="text-white underline text-xl p-5 rounded-lg bg-purple-700 hover:bg-purple-950"
+            className="text-white text-xl p-4 rounded-xl bg-purple-700 hover:bg-purple-950"
             onClick={handleSeeLess}
           >
             See Less

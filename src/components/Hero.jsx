@@ -47,7 +47,7 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col sm:flex-row items-center justify-center text-center lg:ml-72 mt-12">
-          <p className="text-3xl lg:text-6xl font-sans font-bold">
+          <p className="text-3xl lg:text-6xl font-sans font-bold select-none">
             Literary Sub-Council
           </p>
         </div>

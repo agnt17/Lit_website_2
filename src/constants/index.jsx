@@ -513,7 +513,7 @@ const experiences = [
   },
   {
     title: "Kavyotsav",
-    company_name: "Meta",
+    company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
     date: "12th April 2023",
@@ -524,7 +524,7 @@ const experiences = [
   },
   {
     title: "Moot Court",
-    company_name: "Meta",
+    company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#E6DEDD",
     date: "28th June 2023",
@@ -535,7 +535,7 @@ const experiences = [
   },
   {
     title: "Debate-A-Thon",
-    company_name: "Meta",
+    company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
     date: "13th April 2023",
@@ -546,7 +546,7 @@ const experiences = [
   },
   {
     title: "Poetry Meet",
-    company_name: "Meta",
+    company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#E6DEDD",
     date: "27th May 2023",
@@ -557,7 +557,7 @@ const experiences = [
   },
   {
     title: "MR. LITERATI AND MISS LITERATI  ",
-    company_name: "Meta",
+    company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
     date: "14th April 2023",
@@ -568,7 +568,7 @@ const experiences = [
   },
   {
     title: "Srijan",
-    company_name: "Meta",
+    company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#E6DEDD",
     date: "3rd Sep 2023",
@@ -579,7 +579,7 @@ const experiences = [
   },
   {
     title: "Declamation",
-    company_name: "Meta",
+    company_name: "Literary Sub-Council",
     icon: backend,
     iconBg: "#383E56",
     date: "1st Dec 2023",
@@ -587,6 +587,105 @@ const experiences = [
       "Declamation is the annual session inaugural event where Participants are each allotted with a speech of historical significance, who are then judged on their fluency, consistency and outlook towards the speech .",
     ],
     image: "./declamation.jpg",
+  },
+  {
+    title: "Guftagoo",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "It is an alumni interaction series, featuring the alumni of poetry club, as well as renowned poets.Bal Mohan Pandey, the famous poet, Aman Rajan Katariya, the founder of poetry club, are some of the guests who have graced the sessions. It is conducted on a monthly basis.",
+    ],
+    image: "./guftagoo.jpg",
+  },
+  {
+    title: "Abhivyakti",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "It was an online poetry competition where participants had to register themselves as a team of two or more.As the name suggests, it was an opportunity for the participants to express themselves in the best way possible.",
+    ],
+    image: "./guftagoo.jpg",
+  },
+  {
+    title: "Induction program",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "An introduction programme was organised for the first-year students by the Literary Sub Council to welcome them to the college and familiarise them with the various literary activities and opportunities available.",
+    ],
+    image: "./Induction_program.jpg",
+  },
+  {
+    title: "Discord session",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "Discord sessions,conducted in online mode, are open to all students and give them the opportunity to interact with other students and seniors while engaging in fun discussions and games. Every session has a different theme and objective.",
+    ],
+    image: "./Discord_sessions.png",
+  },
+  {
+    title: "English literacy workshop",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "The English Literacy Workshop, conducted monthly, provides a supportive and collaborative learning environment that promotes active participation and fosters growth in a fun and engaging way. The workshop is open to all students to improve their reading, writing, and communication skills. ",
+    ],
+    image: "./English_literary.jpg",
+  },
+  {
+    title: "Debating workshop",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "The Debating Workshop conducted monthly, provides students with practical skills that can be utilised in their daily lives, leading to better academic and professional opportunities. It provides a platform to build a network with like-minded individuals and practise communication skills in a quality environment. ",
+    ],
+    image: "./debate_sessions.jpg",
+  },
+  {
+    title: "Rota Sessions",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "Weekly held ROTA sessions are refreshing, engrossing, and interactive talk sessions with a group of bibliophiles and avid movie enthusiasts. They entail intriguing, zealous, and captivating discussions from the books of Agatha Christie and Enid Blyton to sci-fi, philosophical movies, and enticing web series. ",
+    ],
+    image: "./Rota  _sessions.png",
+  },
+  {
+    title: "Movie time trivia",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "This event puts to test the  movie knowledge with some trivia. From iconic quotes to behind-the-scenes secrets, the event has it all. It is full of fascinating questions and brain-teasing challenges based on popular movies. It is no less than a battle of movie buffs with the best one winning the competition.",
+    ],
+    image: "./movie_time.jpg",
+  },
+  {
+    title: "Essay writing competition",
+    company_name: "Literary Sub-Council",
+    icon: backend,
+    iconBg: "#383E56",
+    date: "1st Dec 2023",
+    points: [
+      "This essay writing competition is organized in an effort to harness the energy, creativity and initiative of the students in promoting a culture of literature. It also aims to inspire society to learn from the young minds and to think about how each of us can make a difference in the world.",
+    ],
+    image: "./essay_writing.jpg",
   },
 ];
 

@@ -179,10 +179,8 @@ const About = () => {
         lesser-known facts about this club is that it is the oldest functioning
         club of the sub-council. Having a star-studded list of alumni in its
         roaster. The poetry club has given us some brilliantly creative and
-        articulate individuals. They might not deal out house-full shows butthey
-        more than make up for it by their grit and determination towards their
-        cause. Poetry club keeps alive the endangered art of poetry on our
-        campus and for that we are eternally grateful to them.
+        articulate individuals. Poetry club keeps alive the endangered art of
+        poetry on our campus and for that we are eternally grateful to them
         <div className="flex flex-col text-lg  text-purple-400 mt-3">
           <span className="text-xl font-bold">
             Some of the major events by Poetry Club:
@@ -214,9 +212,7 @@ const About = () => {
         having a hard time out there, they can forego of their troubles by
         coming into its various discussion sessions where from books to movies
         to fine arts, literally anything that can induce a stimulating
-        conversation is taken up as the agenda. They also have a very active
-        Instagram handle where students in this community post reviews of books,
-        movies and such
+        conversation is taken up as the agenda
         <div className="flex flex-col text-lg  text-purple-400 mt-3">
           <span className="text-xl font-bold">
             Some of the major events by Poetry Club:
@@ -249,8 +245,7 @@ const About = () => {
         ensures that the student body of our college is not being devoid of this
         very essential branch of knowledge. They also use their Instagram
         channel to spread awareness regarding financial literacy and get more
-        and more people engrossed in the pursuit of this knowledge. Some of the
-        major events by Flnamics: • Tradeck • FL. Workshops • Finology
+        and more people engrossed in the pursuit of this knowledge.
         <div className="flex flex-col text-lg  text-purple-400 mt-3">
           <span className="text-xl font-bold">
             Some of the major events by Poetry Club:

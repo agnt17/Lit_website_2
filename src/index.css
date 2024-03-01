@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+::selection {
+  background-color: rgb(225, 52, 170);
+  color: #fff;
+  /* Set the text color */
+}
+
 * {
   margin: 0;
   padding: 0;

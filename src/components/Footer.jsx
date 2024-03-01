@@ -20,10 +20,9 @@ function Footer() {
                 href="https://www.instagram.com/literarysubcouncil_hbtu/"
                 target="_blank"
               >
-                <FaInstagram />
+                <FaInstagram className="hover:text-pink-700" />
               </a>
             </li>
-            
           </ul>
         </div>
       </footer>

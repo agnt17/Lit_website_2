@@ -101,7 +101,7 @@ const Experience = () => {
                   selectedCard === index ? "block" : "hidden"
                 }`}
               >
-                <h2 className="text-2xl text-pink-400">MEMBERS</h2>
+                <h2 className="text-2xl text-teal-400">MEMBERS</h2>
                 <p className=" text-2xl hover:transition ease-in-out duration-1000">
                   {service.data()}
                 </p>

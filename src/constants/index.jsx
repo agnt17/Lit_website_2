@@ -122,126 +122,134 @@ const services = [
     title: "Web Dev",
     icon: mobile,
     data: () => (
-      <ul className="flex flex-col">
-        <li
-          style={{ display: "flex", alignItems: "center" }}
-          className="hover:text-teal-400"
-        >
-          Madhav Diwedi{" "}
+      <ul className="flex flex-col font-light m-2">
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span
+            className="hover:text-emerald-600"
+            onClick={() => {
+              return <img src="./slider_image_23.jpg" alt="Madhav Diwedi" />;
+            }}
+          >
+            Madhav Diwedi
+          </span>
+
           <a
             href="https://www.linkedin.com/in/madhav-dwivedi-59905b231/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
-            <span style={{ marginRight: "4px" }}>
+            <span
+              style={{ marginRight: "4px" }}
+              className="hover:text-blue-600"
+            >
               <FaLinkedin />
             </span>
             <span href="https://www.instagram.com/madhavv07/">
               <a
                 href="https://www.instagram.com/madhavv07/"
                 target="_blank"
-                rel="noopener noreferrer"
+                className="hover:text-pink-700"
               >
                 <FaInstagram />
               </a>
             </span>
           </a>
         </li>
-        <li
-          style={{ display: "flex", alignItems: "center" }}
-          className="hover:text-teal-400 "
-        >
-          Aditya Gupta{" "}
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span className="hover:text-emerald-600">Aditya Gupta</span>
           <a
             href="https://www.linkedin.com/in/aditya-gupta-452790229/"
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
-            <span style={{ marginRight: "4px" }}>
+            <span
+              style={{ marginRight: "4px" }}
+              className="hover:text-blue-600"
+            >
               <FaLinkedin />
             </span>
             <span href="https://www.instagram.com/adityagupta1859/">
               <a
                 href="https://www.instagram.com/adityagupta1859/"
                 target="_blank"
-                rel="noopener noreferrer"
+                className="hover:text-pink-700"
               >
                 <FaInstagram />
               </a>
             </span>
           </a>
         </li>
-        <li
-          style={{ display: "flex", alignItems: "center" }}
-          className="hover:text-teal-400"
-        >
-          Harsh Agarwal{" "}
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span className="hover:text-emerald-600">Harsh Agarwal </span>
           <a
             href="https://www.linkedin.com/in/harsh-agarwal-68577a229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
-            <span style={{ marginRight: "4px" }}>
+            <span
+              style={{ marginRight: "4px" }}
+              className="hover:text-blue-600"
+            >
               <FaLinkedin />
             </span>
             <span href="https://www.instagram.com/harsh._.agarwaal?igsh=MWE2a3h4eWV3dnEybw==">
               <a
                 href="https://www.instagram.com/harsh._.agarwaal?igsh=MWE2a3h4eWV3dnEybw=="
                 target="_blank"
-                rel="noopener noreferrer"
+                className="hover:text-pink-700"
               >
                 <FaInstagram />
               </a>
             </span>
           </a>
         </li>
-        <li
-          style={{ display: "flex", alignItems: "center" }}
-          className="hover:text-teal-400"
-        >
-          Kaustubh Dixit{" "}
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span className="hover:text-emerald-600">Kaustubh Dixit</span>
           <a
             href="https://www.linkedin.com/in/kaustubhdidit?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
-            <span style={{ marginRight: "4px" }}>
+            <span
+              style={{ marginRight: "4px" }}
+              className="hover:text-blue-600"
+            >
               <FaLinkedin />
             </span>
             <span href="https://www.instagram.com/kaustubhdidit?igsh=MTEwaHFtYjVyeWFlOA==">
               <a
                 href="https://www.instagram.com/kaustubhdidit?igsh=MTEwaHFtYjVyeWFlOA=="
                 target="_blank"
-                rel="noopener noreferrer"
+                className="hover:text-pink-700"
               >
                 <FaInstagram />
               </a>
             </span>
           </a>
         </li>
-        <li
-          style={{ display: "flex", alignItems: "center" }}
-          className="hover:text-teal-400"
-        >
-          Akshaya Singh{" "}
+        <li style={{ display: "flex", alignItems: "center" }}>
+          <span className="hover:text-emerald-600">Akshaya Singh</span>
           <a
             href="https://www.linkedin.com/in/akshaya-singh-b65864229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
             target="_blank"
             rel="noopener noreferrer"
             style={{ marginLeft: "8px", display: "flex", alignItems: "center" }}
           >
-            <span style={{ marginRight: "4px" }}>
+            <span
+              style={{ marginRight: "4px" }}
+              className="hover:text-blue-600"
+            >
               <FaLinkedin />
             </span>
             <span href="https://www.instagram.com/_akshaya.pratap_/">
               <a
                 href="https://www.instagram.com/_akshaya.pratap_/"
                 target="_blank"
-                rel="noopener noreferrer"
+                className="hover:text-pink-700"
               >
                 <FaInstagram />
               </a>

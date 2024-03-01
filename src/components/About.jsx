@@ -132,7 +132,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="mt-1 ml-4" />
+            <FaInstagram className="mt-1 ml-4 hover:text-pink-700" />
           </a>
         </span>
         Callidus was started with a very ambitious aim of improving the campus
@@ -171,7 +171,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="mt-1 ml-4" />
+            <FaInstagram className="mt-1 ml-4 hover:text-pink-700" />
           </a>
         </span>
         This is one club, which we believe, doesn't need any introduction. True
@@ -199,7 +199,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="mt-1 ml-4" />
+            <FaInstagram className="mt-1 ml-4 hover:text-pink-700" />
           </a>
         </span>
         The benefits of reading isn't unbeknownst to anyone, irrespective of the
@@ -231,7 +231,7 @@ const About = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram className="mt-1 ml-4" />
+            <FaInstagram className="mt-1 ml-4 hover:text-pink-700" />
           </a>
         </span>
         There is something more that we need to go out into the world as a
@@ -255,7 +255,7 @@ const About = () => {
           <span>•Finology</span>
         </div>
       </p>
-      <p className="mb-10 text-teal-500 mt-7 text-3xl lg:text-xl">
+      <p className="mb-10 text-teal-500 mt-16 mb-10 text-3xl text-center ">
         Glimpses of the events conducted by the Literary Sub-Council{" "}
       </p>
 

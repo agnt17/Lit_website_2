@@ -4,6 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+
+#preloader {
+  background-color: #000000;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  text-align: center;
+  z-index: 100;
+
+}
+
 ::selection {
   background-color: rgb(225, 52, 170);
   color: #fff;

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,10 +6,35 @@
   <link rel="icon" type="image/svg+xml" href="/lit_logo_svg_icon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Literary SubCouncil HBTU</title>
+  <style>
+    #preloader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  </style>
 </head>
 
 <body>
+  <div id="preloader">
+    <video autoplay loop muted playsinline width="300">
+      <source src="./Loader.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
   <div id="root"></div>
+  <script>
+    var loader = document.getElementById("preloader");
+    setTimeout(function () {
+      loader.style.display = "none";
+    }, 4450);
+  </script>
   <script type="module" src="/src/main.jsx"></script>
 </body>
 

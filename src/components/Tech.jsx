@@ -50,49 +50,45 @@ function Tech() {
         <h2 className="sm:text-3xl lg:text-5xl mt-20">
           <span className="select-none">Summary</span>
         </h2>
-        <table className="mt-5 w-full " style={{ borderCollapse: "collapse" }}>
-          <tr>
-            <td style={cellStyle} className="text-teal-400">
-              Session
-            </td>
-            <td style={cellStyle} className="text-teal-400">
-              Convener
-            </td>
-            <td style={cellStyle} className="text-teal-400">
-              Secretary
-            </td>
-            <td style={cellStyle} className="text-teal-400" id="summary1">
-              Summary
-            </td>
-          </tr>
-          <tr>
-            <td style={cellStyle}>2022-2023</td>
-            <td style={cellStyle}>Ms. Shivani Koshtha</td>
-            <td style={cellStyle}>Aryan Shukla</td>
-            <td style={cellStyle} id="summary1">
-              <button
-                className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
-                onClick={() =>
-                  openPdf("./Literary Sub Council Summary 17 april.pdf")
-                }
-              >
-                Summary
-              </button>
-            </td>
-          </tr>
-          <tr>
-            <td style={cellStyle}>2023-2024</td>
-            <td style={cellStyle}>Ms. Shivani Koshtha</td>
-            <td style={cellStyle}>Anjali Bind & Suraj Tripathi</td>
-            <td style={cellStyle} id="summary2">
-              <button
-                className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
-                onClick={() => openPdf("./lit summary 2023-24.pdf")}
-              >
-                Summary
-              </button>
-            </td>
-          </tr>
+        <table className="mt-5 w-5/6 table-auto lg:text-lg text-xs">
+          <thead>
+            <tr>
+              <th className="text-teal-400 p-2">Session</th>
+              <th className="text-teal-400 p-2">Convener</th>
+              <th className="text-teal-400 p-2">Secretary</th>
+              <th className="text-teal-400 p-2">Summary</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className="border p-2">2022-2023</td>
+              <td className="border p-2">Ms. Shivani Koshtha</td>
+              <td className="border p-2">Aryan Shukla</td>
+              <td className="border p-2">
+                <button
+                  className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
+                  onClick={() =>
+                    openPdf("./Literary Sub Council Summary 17 april.pdf")
+                  }
+                >
+                  Summary
+                </button>
+              </td>
+            </tr>
+            <tr>
+              <td className="border p-2">2023-2024</td>
+              <td className="border p-2">Ms. Shivani Koshtha</td>
+              <td className="border p-2">Anjali Bind & Suraj Tripathi</td>
+              <td className="border p-2">
+                <button
+                  className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
+                  onClick={() => openPdf("./lit summary 2023-24.pdf")}
+                >
+                  Summary
+                </button>
+              </td>
+            </tr>
+          </tbody>
         </table>
       </div>
     </>

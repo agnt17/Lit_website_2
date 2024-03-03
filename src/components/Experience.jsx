@@ -50,7 +50,7 @@ const Experience = () => {
           <h3 className="text-xl text-center mt-4 text-teal-400">Convener</h3>
           <h3 className="text-l text-center mt-2">Literary Sub-Council</h3>
           <p>
-            <a href="tel:+918765123440">+91 87651 23440</a>
+            <a href="tel:+918765123440">+91 8765123440</a>
           </p>
 
           <div className="flex flex-row mt-3">

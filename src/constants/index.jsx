@@ -141,7 +141,7 @@ const services = [
           >
             <span
               style={{ marginRight: "4px" }}
-              className="hover:text-blue-600"
+              className="hover: text-blue-600"
             >
               <FaLinkedin />
             </span>
@@ -149,7 +149,7 @@ const services = [
               <a
                 href="https://www.instagram.com/madhavv07/"
                 target="_blank"
-                className="hover:text-pink-700"
+                className="hover: text-pink-700"
               >
                 <FaInstagram />
               </a>
@@ -166,7 +166,7 @@ const services = [
           >
             <span
               style={{ marginRight: "4px" }}
-              className="hover:text-blue-600"
+              className="hover: text-blue-600"
             >
               <FaLinkedin />
             </span>
@@ -174,7 +174,7 @@ const services = [
               <a
                 href="https://www.instagram.com/adityagupta1859/"
                 target="_blank"
-                className="hover:text-pink-700"
+                className="hover: text-pink-700"
               >
                 <FaInstagram />
               </a>
@@ -191,7 +191,7 @@ const services = [
           >
             <span
               style={{ marginRight: "4px" }}
-              className="hover:text-blue-600"
+              className="hover: text-blue-600"
             >
               <FaLinkedin />
             </span>
@@ -199,7 +199,7 @@ const services = [
               <a
                 href="https://www.instagram.com/harsh._.agarwaal?igsh=MWE2a3h4eWV3dnEybw=="
                 target="_blank"
-                className="hover:text-pink-700"
+                className="hover: text-pink-700"
               >
                 <FaInstagram />
               </a>
@@ -216,7 +216,7 @@ const services = [
           >
             <span
               style={{ marginRight: "4px" }}
-              className="hover:text-blue-600"
+              className="hover: text-blue-600"
             >
               <FaLinkedin />
             </span>
@@ -224,7 +224,7 @@ const services = [
               <a
                 href="https://www.instagram.com/kaustubhdidit?igsh=MTEwaHFtYjVyeWFlOA=="
                 target="_blank"
-                className="hover:text-pink-700"
+                className="hover: text-pink-700"
               >
                 <FaInstagram />
               </a>
@@ -241,7 +241,7 @@ const services = [
           >
             <span
               style={{ marginRight: "4px" }}
-              className="hover:text-blue-600"
+              className="hover: text-blue-600"
             >
               <FaLinkedin />
             </span>
@@ -249,7 +249,7 @@ const services = [
               <a
                 href="https://www.instagram.com/_akshaya.pratap_/"
                 target="_blank"
-                className="hover:text-pink-700"
+                className="hover: text-pink-700"
               >
                 <FaInstagram />
               </a>

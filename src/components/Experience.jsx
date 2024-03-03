@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 // import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 // import { RxArrowTopRight } from "react-icons/rx";
@@ -46,7 +48,26 @@ const Experience = () => {
           />
           <h1 className="text-2xl text-center mt-12">Ms. Shivani Koshtha</h1>
           <h3 className="text-xl text-center mt-4 text-teal-400">Convener</h3>
-          <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
+          <h3 className="text-l text-center mt-2">Literary Sub-Council</h3>
+          <p>
+            <a href="tel:">+91 87651 23440</a>
+          </p>
+
+          <div className="flex flex-row mt-3">
+            <a
+              href="https://www.linkedin.com/in/shivani-koshtha-76a81523a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+            >
+              <FaLinkedin className="mr-4 scale-150 hover: text-blue-600" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/koshthashivani?igsh=aWY2OGZvbDkzbGNq"
+              target="_blank"
+            >
+              <FaInstagram className="mr-2  scale-150 hover:  text-pink-600" />
+            </a>
+          </div>
         </div>
 
         <div className="lg:w-1/3 flex flex-col items-center mt-8 lg:mt-0">
@@ -58,6 +79,25 @@ const Experience = () => {
           <h1 className="text-2xl text-center mt-12">Anjali Bind</h1>
           <h3 className="text-xl text-center mt-4 text-teal-400">Secretary</h3>
           <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
+          <p>
+            <a href="tel:">+91 8218242146</a>
+          </p>
+
+          <div className="flex flex-row mt-3">
+            <a
+              href="https://www.linkedin.com/in/anjali-bind-819a2223a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+            >
+              <FaLinkedin className="mr-4 scale-150 hover: text-blue-600" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/anjalibind3724?igsh=ZHFiZmtkZ280N2Uw"
+              target="_blank"
+            >
+              <FaInstagram className="mr-2  scale-150 hover:  text-pink-600" />
+            </a>
+          </div>
         </div>
 
         <div className="lg:w-1/3 flex flex-col items-center mt-8 lg:mt-0">
@@ -69,6 +109,27 @@ const Experience = () => {
           <h1 className="text-2xl text-center mt-12">Suraj Tripathi</h1>
           <h3 className="text-xl text-center mt-4 text-teal-400">Secretary</h3>
           <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
+          <p>
+            <a href="tel:" target="_blank">
+              +91 9336854395
+            </a>
+          </p>
+
+          <div className="flex flex-row mt-3">
+            <a
+              href="https://www.linkedin.com/in/suraj-tripathi-b65404229?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
+            >
+              <FaLinkedin className="mr-4 scale-150 hover: text-blue-600" />
+            </a>
+
+            <a
+              href="https://www.instagram.com/suraj_mani_tripathi_official?igsh=b2phNDdmY3o4Mmc0"
+              target="_blank"
+            >
+              <FaInstagram className="mr-2  scale-150 hover:  text-pink-600" />
+            </a>
+          </div>
         </div>
       </div>
 

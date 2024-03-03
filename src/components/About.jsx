@@ -212,7 +212,7 @@ const About = () => {
         conversation is taken up as the agenda
         <div className="flex flex-col text-lg  text-purple-400 mt-3">
           <span className="text-xl font-bold">
-            Some of the major events by Poetry Club:
+            Some of the major events by ROTA:
           </span>
           <span>•Community Discussion Sessions</span>
           <span>• Book-a-minute</span>
@@ -245,14 +245,14 @@ const About = () => {
         and more people engrossed in the pursuit of this knowledge.
         <div className="flex flex-col text-lg  text-purple-400 mt-3">
           <span className="text-xl font-bold">
-            Some of the major events by Poetry Club:
+            Some of the major events by Finamics:
           </span>
           <span>•Tradeck</span>
           <span>•FL. Workshops</span>
           <span>•Finology</span>
         </div>
       </p>
-      <p className="mb-10 text-teal-500 mt-16 mb-10 text-3xl text-center ">
+      <p className="mb-10 text-teal-500 mt-16  text-3xl text-center ">
         Glimpses of the events conducted by the Literary Sub-Council{" "}
       </p>
 

@@ -152,9 +152,6 @@ const About = () => {
           <span className="text-xl font-bold">
             Some of the major events by Callidus:
           </span>
-          <span>•Bellum</span>
-          <span>•Ingenia</span>
-          <span>•Republic Day</span>
           <span>•Declamation</span>
           <span>•Moot Court HBTU</span>
           <span>•Model United Nations</span>

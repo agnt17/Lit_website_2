@@ -17,6 +17,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      opacity: 1;
+      transition: opacity 1s ease-in-out;
+      /* Add transition property for smooth fade */
     }
   </style>
 </head>
@@ -32,8 +35,11 @@
   <script>
     var loader = document.getElementById("preloader");
     setTimeout(function () {
-      loader.style.display = "none";
-    }, 4450);
+      loader.style.opacity = "0"; // Set opacity to 0 after 1 second
+      setTimeout(function () {
+        loader.style.display = "none"; // Hide the preloader after fade-out
+      }, 700);
+    }, 3850);
   </script>
   <script type="module" src="/src/main.jsx"></script>
 </body>

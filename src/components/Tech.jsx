@@ -72,7 +72,9 @@ function Tech() {
             <td style={cellStyle} id="summary1">
               <button
                 className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
-                onClick={() => openPdf("./lit summary 2023-24.pdf")}
+                onClick={() =>
+                  openPdf("./Literary Sub Council Summary 17 april.pdf")
+                }
               >
                 Summary
               </button>
@@ -85,9 +87,7 @@ function Tech() {
             <td style={cellStyle} id="summary2">
               <button
                 className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
-                onClick={() =>
-                  openPdf("./Literary Sub Council Summary 17 april.pdf")
-                }
+                onClick={() => openPdf("./lit summary 2023-24.pdf")}
               >
                 Summary
               </button>

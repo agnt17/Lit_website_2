@@ -68,7 +68,7 @@ function Tech() {
                 <button
                   className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
                   onClick={() =>
-                    openPdf("./Literary Sub Council Summary 17 april.pdf")
+                    openPdf("./Literary Sub Council Summary 2022-23.pdf")
                   }
                 >
                   Summary

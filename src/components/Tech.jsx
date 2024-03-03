@@ -36,9 +36,9 @@ function Tech() {
               </a>
             </td>
             <td style={cellStyle} className="" target="_blank">
-              <a target="_blank" className=" text-slate-700 ">
-                <button className="text-slate-700 cursor-default">
-                  Magazine Link
+              <a target="_blank">
+                <button className="text-emerald-400 cursor-default font-extralight">
+                  Coming Soon...
                 </button>
               </a>
             </td>

@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 
 const App = () => {
   return (
-    <BrowserRouter >
+    <BrowserRouter>
       <div className="relative z-0 bg-primary scroll-smooth">
         {/* <StarsCanvas /> */}
         <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">

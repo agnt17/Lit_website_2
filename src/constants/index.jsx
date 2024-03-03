@@ -127,7 +127,7 @@ const services = [
           <span
             className="hover:text-emerald-600"
             onClick={() => {
-              return <img src="./slider_image_23.jpg" alt="Madhav Diwedi" />;
+              return <img src="./azadi.jpg" className="w-10 rounded-full" />;
             }}
           >
             Madhav Diwedi

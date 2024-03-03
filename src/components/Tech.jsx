@@ -3,6 +3,10 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 
 function Tech() {
+  const openPdf = (pdfPath) => {
+    window.open(pdfPath, "_blank");
+  };
+
   return (
     <>
       <p className={styles.sectionSubText}>Lit Sub-Council Magazine</p>
@@ -16,7 +20,7 @@ function Tech() {
               2021-2022
             </td>
             <td style={cellStyle} className="text-teal-400">
-              2022-2023{" "}
+              2022-2023
             </td>
           </tr>
           <tr>
@@ -26,11 +30,17 @@ function Tech() {
                 target="_blank"
                 className="hover:text-blue-600"
               >
-                Magazine Link
+                <button className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800 text-white">
+                  Magazine Link
+                </button>
               </a>
             </td>
             <td style={cellStyle} className="" target="_blank">
-              Magazine Link
+              <a target="_blank" className=" text-slate-700 ">
+                <button className="text-slate-700 cursor-default">
+                  Magazine Link
+                </button>
+              </a>
             </td>
           </tr>
         </table>
@@ -49,9 +59,9 @@ function Tech() {
               Convener
             </td>
             <td style={cellStyle} className="text-teal-400">
-              Secretory
+              Secretary
             </td>
-            <td style={cellStyle} className="text-teal-400">
+            <td style={cellStyle} className="text-teal-400" id="summary1">
               Summary
             </td>
           </tr>
@@ -59,13 +69,29 @@ function Tech() {
             <td style={cellStyle}>2022-2023</td>
             <td style={cellStyle}>Ms. Shivani Koshtha</td>
             <td style={cellStyle}>Aryan Shukla</td>
-            <td style={cellStyle}>Summary</td>
+            <td style={cellStyle} id="summary1">
+              <button
+                className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
+                onClick={() => openPdf("./lit summary 2023-24.pdf")}
+              >
+                Summary
+              </button>
+            </td>
           </tr>
           <tr>
             <td style={cellStyle}>2023-2024</td>
             <td style={cellStyle}>Ms. Shivani Koshtha</td>
             <td style={cellStyle}>Anjali Bind & Suraj Tripathi</td>
-            <td style={cellStyle}>Summary</td>
+            <td style={cellStyle} id="summary2">
+              <button
+                className="bg-purple-500 p-2 rounded-lg hover:bg-purple-800"
+                onClick={() =>
+                  openPdf("./Literary Sub Council Summary 17 april.pdf")
+                }
+              >
+                Summary
+              </button>
+            </td>
           </tr>
         </table>
       </div>

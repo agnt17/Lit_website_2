@@ -50,7 +50,7 @@ const Experience = () => {
           <h3 className="text-xl text-center mt-4 text-teal-400">Convener</h3>
           <h3 className="text-l text-center mt-2">Literary Sub-Council</h3>
           <p>
-            <a href="tel:">+91 87651 23440</a>
+            <a href="tel:+918765123440">+91 87651 23440</a>
           </p>
 
           <div className="flex flex-row mt-3">
@@ -80,7 +80,7 @@ const Experience = () => {
           <h3 className="text-xl text-center mt-4 text-teal-400">Secretary</h3>
           <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
           <p>
-            <a href="tel:">+91 8218242146</a>
+            <a href="tel:+918218242146">+91 8218242146</a>
           </p>
 
           <div className="flex flex-row mt-3">
@@ -110,7 +110,7 @@ const Experience = () => {
           <h3 className="text-xl text-center mt-4 text-teal-400">Secretary</h3>
           <h3 className="text-l text-center mt-4">Literary Sub-Council</h3>
           <p>
-            <a href="tel:" target="_blank">
+            <a href="tel:+919336854395" target="_blank">
               +91 9336854395
             </a>
           </p>

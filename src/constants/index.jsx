@@ -587,7 +587,7 @@ const experiences = [
     iconBg: "#E6DEDD",
     date: "28th June 2023",
     points: [
-      "Youth parliament provides a common platform and fosters healthy discussions about policy reforms, parliamentary activities, policymaking, educational programs,etc.Participants are allotted the portfolio of each minister which then lead to a fierce yet fruitful debate between the government and the opposition",
+      "It is an event where participants take part in simulated court or arbitration proceedings which helps in the development of research skills, legal knowledge, way of presentation and speaking skills as it is more interactive than basic public speaking. Participants can participate in two categories, lawyers and judges , while both the categories are judged and awarded separately.",
     ],
     image: "./moot_court.jpg",
   },

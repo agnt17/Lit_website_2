@@ -183,7 +183,7 @@ const About = () => {
             Some of the major events by Poetry Club:
           </span>
           <span>•Izhaar</span>
-          <span>•Gufatagoo</span>
+          <span>•Guftagoo</span>
           <span>•Abhivyakkti </span>
           <span>•Poetry Meets</span>
         </div>

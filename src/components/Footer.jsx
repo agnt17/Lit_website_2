@@ -30,6 +30,14 @@ function Footer() {
               >
                 <FaLocationDot className="hover:text-red-600" />
               </a>
+              <a
+                href="https://github.com/agnt17/Lit_website_2/"
+                className="ml-4"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <FontAwesomeIcon icon="fa-brands fa-github" className="hover:text-red-600"/>  
+              </a>
             </li>
           </ul>
         </div>

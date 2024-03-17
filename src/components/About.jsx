@@ -183,14 +183,14 @@ const About = () => {
             Some of the major events by Poetry Club:
           </span>
           <span>•Izhaar</span>
-          <span>•Gufatagoo</span>
+          <span>•Guftagoo</span>
           <span>•Abhivyakkti </span>
           <span>•Poetry Meets</span>
         </div>
       </p>
       <p>
         <span className="text-3xl flex text-teal-500 font-bold mb-4 mt-4">
-          Readers of the Arc (ROTA)
+          Readers of the Ark (ROTA)
           <a
             href="https://www.instagram.com/r_o_t_a_/"
             target="_blank"

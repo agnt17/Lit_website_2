@@ -1,6 +1,6 @@
 import React from "react";
 // import "bootstrap/dist/css/bootstrap.css"
-import { FaInstagram } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLink } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaLocationDot, FaXTwitter } from "react-icons/fa6";
 
@@ -15,7 +15,7 @@ function Footer() {
         </div>
         <div className="flex flex-row ml-4 pr-10 mt-2">
           <ul className="flex flex-row ">
-            <li className="flex  flex-rowml-4 mr-4 text-3xl text-gray-400 ">
+            <li className="flex flex-rowml-4 mr-4 text-3xl text-gray-400 ">
               <a
                 href="https://www.instagram.com/literarysubcouncil_hbtu/"
                 target="_blank"
@@ -29,6 +29,12 @@ function Footer() {
                 rel="noopener noreferrer"
               >
                 <FaLocationDot className="hover:text-red-600" />
+              </a>
+              <a href="https://github.com/agnt17/Lit_website_2" target="_blank">
+                <FaGithub className="hover:text-blue-600 ml-4" />
+              </a>
+              <a href="https://lit-website-2.vercel.app/" target="_blank">
+                <FaLink className=" ml-4 hover:text-emerald-600" />
               </a>
             </li>
           </ul>

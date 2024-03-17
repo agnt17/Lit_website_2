@@ -22,7 +22,7 @@ const App = () => {
           <Navbar />
           <Hero />
         </div>
-        {/* <StarsCanvas /> */}
+        {/* <StarsCanvas />  */}
         <About />
         <Government_events />
         <Feedbacks />

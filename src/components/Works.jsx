@@ -36,15 +36,18 @@ const Works = () => {
             <hr />
           </div>
           <div className="items-center">
-            <p className="text-2xl">Buy your Tshirt Right here</p>
-            <a
-              href="https://forms.gle/SUbbvupRLtWj6eLc8"
-              className="flex justify-center items-center mt-5 text-teal-500 font-semibold text-2xl hover:text-teal-700 "
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Google form link
-            </a>
+            <p className="text-2xl mt-5 text-teal-500">
+              Buy your Tshirt Right here
+            </p>
+            <button className="flex justify-center items-center mt-10 mb-[-50px] font-semibold text-2xl hover:text-black cursor-pointer bg-violet-600 hover:bg-violet-400 rounded-lg w-fit p-4  mx-auto ">
+              <a
+                href="https://forms.gle/SUbbvupRLtWj6eLc8"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Google form link
+              </a>
+            </button>
           </div>
         </div>
       </motion.div>

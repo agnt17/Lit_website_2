@@ -66,6 +66,12 @@ const Hero = () => {
           src="./lit_logo.jpg"
           className="w-24 h-24 rounded-full border-2 border-x-purple-600 hover:border-y-purple-600 cursor-pointer"
           alt="Lit logo"
+          onClick={() => {
+            window.scrollTo({
+              top: 0,
+              behavior: "smooth",              
+            });
+          }}
         />
       </div>
     </section>

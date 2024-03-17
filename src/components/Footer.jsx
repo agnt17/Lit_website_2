@@ -15,7 +15,7 @@ function Footer() {
         </div>
         <div className="flex flex-row ml-4 pr-10 mt-2">
           <ul className="flex flex-row ">
-            <li className="flex flex-rowml-4 mr-4 text-3xl text-gray-400 ">
+            <li className="flex flex-row  mr-4 text-xl lg:text-3xl text-gray-400 ">
               <a
                 href="https://www.instagram.com/literarysubcouncil_hbtu/"
                 target="_blank"
